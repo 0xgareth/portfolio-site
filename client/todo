@@ -1,0 +1,49 @@
+home
+- image / main div needs to resize properly to fit on screen
+    needs to be fixed in place 
+- fix title name positioning
+
+nav bar
+- fix not clickable - bottom layer causing issue
+- adjust positon based on current page > GO HOME in center
+
+about 
+- layout and text
+- go home button
+
+contact 
+- layout and text
+- go home button
+
+projects
+- layout and text
+- go home button
+
+project specific 
+- decide how to do this? should it be a template?
+- layout and text
+- go back button
+
+
+----- Final touches -----
+animations
+- home 
+    - title side out from center
+    - full stack dev etc - slide in and apply multiple text effects
+        text animations - https://www.sliderrevolution.com/resources/css-text-animation/
+- about - image slide in from right & text slide in from right
+- contact - text slide up from bottom
+- projects - text slide up from bottom
+- home screen animation of some sort - shapes moving in the background / enable some shapes in the foreground
+- loading - page load transition 
+    https://codepen.io/team/nclud/pen/MwaGGE
+    - 'hey/welcome' with text effect on loading home page, slow reveal page
+    - slow reveal page for rest of transitions
+
+styling
+- choose something other than white for text????
+- chrome tab icon
+- text style on 'full stack dev etc..' - like behance portfolio img on pinterest
+    ( repeated text )
+
+responsiveness

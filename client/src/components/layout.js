@@ -8,6 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
@@ -26,24 +27,44 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
+          maxWidth: 1000,
+          padding: ``,
+          // borderStyle: `solid`,
+          // borderColor: `red`,
+          
+       }}
       >
         <main>{children}</main>
-        <footer
+
+      </div>
+
+      {/* footer */}
+      <footer
           style={{
-            marginTop: `2rem`,
+            marginBottom: `1.5rem`,
+            bottom: 0,
+            position:`absolute`,
+            display:`flex`,
+            justifyContent: `center`,
+            width: `100%`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <div style={{ display: `flex` }}>
+            <Link to="https://twitter.com/garethveale" target="_blank" style={{ textDecoration: `none`}}>
+              <p style={{ color: `white`, padding: `0 4rem 0 4rem` }}>Twitter</p>
+            </Link>
+            <Link to="https://www.behance.net/garethveale" target="_blank" style={{ textDecoration: `none`}}>
+              <p style={{ color: `white`, padding: `0 4rem 0 4rem` }}>Behance</p>
+            </Link>
+            <Link to="https://dribbble.com/garethveale" target="_blank" style={{ textDecoration: `none`}}>
+              <p style={{ color: `white`, padding: `0 4rem 0 4rem` }}>Dribble</p>
+            </Link>
+          </div>
         </footer>
-      </div>
     </>
   )
 }
