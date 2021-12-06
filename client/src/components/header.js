@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
             
           }}
         >
-          About.
+          About
         </Link>
       </h2>
       <h2>
@@ -42,7 +42,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          Contact me.
+          Contact me
         </Link>
       </h2>
       <h2>
@@ -54,7 +54,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          Work.
+          Work
         </Link>
       </h2>
     </div>
