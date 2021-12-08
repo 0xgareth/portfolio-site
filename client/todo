@@ -1,7 +1,5 @@
-home
-- image / main div needs to resize properly to fit on screen
-    needs to be fixed in place 
-- fix title name positioning
+footer 
+- color on link hover
 
 nav bar
 - fix not clickable - bottom layer causing issue
@@ -14,6 +12,7 @@ about
 contact 
 - layout and text
 - go home button
+- animate the bold hello - change between [yo, nihao, konnichiwa, bonjourm etc....]
 
 projects
 - layout and text
@@ -26,6 +25,11 @@ project specific
 
 404
 - off white style - minimalist - all white small black text dotted around
+
+home
+- image / main div needs to resize properly to fit on screen
+    needs to be fixed in place 
+- fix title name positioning
 
 ----- Final touches -----
 animations
