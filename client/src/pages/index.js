@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
       {/* bottom layer */}
-      <div 
+      {/* <div 
         className='bottom-layer' 
         style={{
           height: `100vh`,
@@ -60,7 +60,7 @@ const IndexPage = () => (
             <li style={{ color:`#707070`, opacity: .3 }}>09</li>
             <li style={{ color:`#707070`, opacity: .3 }}>10</li>
           </ul>
-      </div>
+      </div> */}
     {/* top layer */}
     {/* <div 
         className='top-layer' 
@@ -128,16 +128,44 @@ const IndexPage = () => (
           }}>
             <h1 style={{
                 color: `white`,
-                fontSize: `7vw`,
+                fontSize: `6vw`,
                 paddingRight: `25rem`,
                 textAlign:`left`
-              }}>Gareth</h1>
+              }}>GARETH</h1>
             <h1 style={{
                 color: `white`,
-                fontSize: `7vw`,
-                textAlign:`right`
-              }}>Veale</h1>
+                WebkitTextFillColor:`transparent`,
+                fontSize: `6vw`,
+                textAlign:`right`,
+                WebkitTextStrokeWidth:`1px`
+              }}>VEALE</h1>
           </div>
+          {/* <div style={{
+            position: `absolute`,
+            top: `52%`,
+            left: `50%`,
+            transform: `translate(-50%, -50%)`,
+            zIndex: `1.5`,
+            display: `flex`,
+            justifyContent: `space-between`,
+            flexDirection: `row`
+          }}>
+            <h1 style={{
+                color: `white`,
+                WebkitTextFillColor:`transparent`,
+                fontSize: `6vw`,
+                paddingRight: `25rem`,
+                textAlign:`left`,
+                WebkitTextStrokeWidth:`1px`
+              }}>GARETH</h1>
+            <h1 style={{
+                color: `white`,
+                WebkitTextFillColor:`transparent`,
+                fontSize: `6vw`,
+                textAlign:`right`,
+                WebkitTextStrokeWidth:`1px`
+              }}>VEALE</h1>
+          </div> */}
 
         {/* social links */}
         <footer
@@ -148,9 +176,8 @@ const IndexPage = () => (
             <div style={{ display: `flex` }}>
             </div>
             <div style={{ display: `flex`, flexDirection: `column`, justifyContent: `flex-end` }}>
-              <p style={{ color: `white`, }}>Full stack development</p>
-              <p style={{ color: `white`,  paddingTop:`0.1rem` }}>Visual and web design</p>
-              <p style={{ color: `white`,  paddingTop:`0.1rem` }}>Animation</p>            
+              <p style={{ color: `white`, }}>Dev / Animation</p>
+              <p style={{ color: `white`,  paddingTop:`0.1rem` }}>Visual and experience design</p>      
             </div>
         </footer>
     </div>

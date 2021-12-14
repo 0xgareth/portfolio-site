@@ -6,7 +6,7 @@ html {
   overflow-y: hidden;
 }
 body {
-  background-color:#0D0D0D;
+  background-color:#030303;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -58,6 +58,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  color: red;
 }
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
@@ -78,7 +79,7 @@ h1 {
   padding-right: 0;
   padding-top: 0;
   color: inherit;
-  font-family: Baskerville;
+  font-family: Montserrat;
   /* margin-left: 2rem; */
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
@@ -93,13 +94,13 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   color: inherit;
-  font-family: Baskerville;
+  font-family: Big Caslon;
   margin-left: 2rem;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
   font-weight: normal;
   text-rendering: optimizeLegibility;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.1;
   font-weight: 500;
 }
@@ -389,7 +390,7 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
-  font-family: Baskerville;
+  font-family: Big Caslon;
   font-size: 20px;
   margin-left: 0;
   margin-right: 0;

@@ -54,8 +54,8 @@ const Layout = ({ children }) => {
           }}
         >
           <div style={{ display: `flex` }}>
-            <Link to="https://twitter.com/garethveale" target="_blank" style={{ textDecoration: `none`}}>
-              <p style={{ color: `white`, padding: `0 4rem 0 4rem` }}>Twitter</p>
+            <Link to="https://twitter.com/garethveale" target="_blank" style={{ textDecoration: `none` }}>
+              <a style={{ color: `white`, padding: `0 4rem 0 4rem` }}>Twitter</a>
             </Link>
             <Link to="https://www.behance.net/garethveale" target="_blank" style={{ textDecoration: `none`}}>
               <p style={{ color: `white`, padding: `0 4rem 0 4rem` }}>Behance</p>

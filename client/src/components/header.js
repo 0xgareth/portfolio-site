@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const Header = ({ siteTitle }) => (
   <nav
     style={{
-      background: `#0D0D0D`,
+      background: `#030303`,
       width: `100%`,
       padding: `0 2rem 0 2rem`,
       overflow: `hidden`
@@ -27,7 +27,6 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
-            
           }}
         >
           About

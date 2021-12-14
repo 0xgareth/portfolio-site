@@ -1,9 +1,4 @@
-footer 
 - color on link hover
-
-nav bar
-- fix not clickable - bottom layer causing issue
-- adjust positon based on current page > GO HOME in center
 
 about 
 - layout and text
@@ -53,3 +48,6 @@ styling
     ( repeated text )
 
 responsiveness
+- home
+    font resize
+    image resize
