@@ -20,42 +20,42 @@ const Header = ({ siteTitle }) => (
         justifyContent: `space-between`,
       }}
     >
-      <h2 style={{ marginLeft: 0 }}>
-        <Link
+      <Link
           to="/about/"
           activeStyle={{ color: "#CC2936" }}
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
-        >
-          About
-        </Link>
-      </h2>
-      <h2>
-        <Link
-          to="/contact/"
+      >
+        <a style={{ marginLeft: 0, fontSize: `1.5rem`, }}>
+            About
+        </a>
+      </Link>
+      <Link
+          to="/about/"
           activeStyle={{ color: "#CC2936" }}
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
-        >
-          Contact me
-        </Link>
-      </h2>
-      <h2>
-        <Link
-          to="/work/"
+      >
+        <a style={{ marginLeft: 0, fontSize: `1.5rem`, }}>
+            Contact me
+        </a>
+      </Link>
+      <Link
+          to="/about/"
           activeStyle={{ color: "#CC2936" }}
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
-        >
-          Work
-        </Link>
-      </h2>
+      >
+        <a style={{ marginLeft: 0, fontSize: `1.5rem`, }}>
+            Work
+        </a>
+      </Link>
     </div>
   </nav>
 )

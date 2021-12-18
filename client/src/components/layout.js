@@ -55,13 +55,13 @@ const Layout = ({ children }) => {
         >
           <div style={{ display: `flex` }}>
             <Link to="https://twitter.com/garethveale" target="_blank" style={{ textDecoration: `none` }}>
-              <a style={{ color: `white`, padding: `0 4rem 0 4rem` }}>Twitter</a>
+              <a style={{ padding: `0 4rem 0 4rem` }}>Twitter</a>
             </Link>
             <Link to="https://www.behance.net/garethveale" target="_blank" style={{ textDecoration: `none`}}>
-              <p style={{ color: `white`, padding: `0 4rem 0 4rem` }}>Behance</p>
+              <a style={{ padding: `0 4rem 0 4rem` }}>Behance</a>
             </Link>
             <Link to="https://dribbble.com/garethveale" target="_blank" style={{ textDecoration: `none`}}>
-              <p style={{ color: `white`, padding: `0 4rem 0 4rem` }}>Dribble</p>
+              <a style={{ padding: `0 4rem 0 4rem` }}>Dribble</a>
             </Link>
           </div>
         </footer>
