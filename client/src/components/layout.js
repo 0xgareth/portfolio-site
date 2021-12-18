@@ -57,6 +57,9 @@ const Layout = ({ children }) => {
             <Link to="https://twitter.com/garethveale" target="_blank" style={{ textDecoration: `none` }}>
               <a style={{ padding: `0 4rem 0 4rem` }}>Twitter</a>
             </Link>
+            <Link to="https://github.com/garethiv" target="_blank" style={{ textDecoration: `none` }}>
+              <a style={{ padding: `0 4rem 0 4rem` }}>Github</a>
+            </Link>
             <Link to="https://www.behance.net/garethveale" target="_blank" style={{ textDecoration: `none`}}>
               <a style={{ padding: `0 4rem 0 4rem` }}>Behance</a>
             </Link>

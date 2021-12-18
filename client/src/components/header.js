@@ -7,8 +7,8 @@ const Header = ({ siteTitle }) => (
     style={{
       background: `#030303`,
       width: `100%`,
-      padding: `0 2rem 0 2rem`,
-      overflow: `hidden`
+      padding: `2rem 2rem 0 2rem`,
+      overflow: `hidden`,
     }}
   >
     <div
