@@ -30,15 +30,16 @@ const Layout = ({ children }) => {
       
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 1000,
-          padding: ``,
+          // margin: `0 auto`,
+          // maxWidth: 1000,
+          // padding: ``,
           // borderStyle: `solid`,
           // borderColor: `red`,
-          
+          // display: `flex`, 
+          // justifyContent: `center`, 
        }}
       >
-        <main>{children}</main>
+        {/* <main>{children}</main> */}
 
       </div>
 
