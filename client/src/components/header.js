@@ -2,7 +2,11 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => {
+const Header = ({ siteTitle, location }) => {
+
+const path = location.pathname.split('/')[1]
+console.log(typeof(path))
+console.log(path==='')
 
 return (
   <nav
@@ -28,7 +32,6 @@ return (
           to="/about/"
           activeStyle={{ color: "#CC2936" }}
           style={{
-            color: `white`,
             textDecoration: `none`,
           }}
       >
@@ -38,7 +41,6 @@ return (
           to="/contact/"
           activeStyle={{ color: "#CC2936" }}
           style={{
-            color: `white`,
             textDecoration: `none`,
           }}
       >
@@ -48,12 +50,15 @@ return (
           to="/work/"
           activeStyle={{ color: "#CC2936" }}
           style={{
-            color: `white`,
             textDecoration: `none`,
           }}
       >
             Work
       </Link>
+    </div>
+
+    <div style={{ display: `flex`, justifyContent:`center` }}>
+      {path === '' ? null : <Link to="/" style={{textDecoration: `none`,}}>HOME</Link>}
     </div>
   </nav>
 )}

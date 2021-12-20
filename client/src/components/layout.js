@@ -28,7 +28,7 @@ const Layout = ({ children, location }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`} location={location} />
       
         <main>{children}</main>
 
@@ -48,7 +48,7 @@ const Layout = ({ children, location }) => {
           }}
         >
           <div style={{ display: `flex` }}>
-            <Link to="https://twitter.com/garethveale" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem` }}>
+            <Link to="https://twitter.com/gareth_was_here" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem` }}>
               {/* <a style={{ padding: `0 4rem 0 4rem` }}> */}
                 Twitter
                 {/* </a> */}
