@@ -3,7 +3,7 @@ module.exports = {
     title: `Gareth Veale`,
     description: `Portfolio website of Gareth Veale.`,
     author: `Gareth Veale`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://garethveale.dev/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

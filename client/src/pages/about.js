@@ -1,17 +1,12 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const About = () => (
-  <Layout>
+const About = ({location}) => (
+  <Layout location={location}>
     <Seo title="About" />
-
-    <Link to="/" style={{ textDecoration: `none` }}>
-      <a style={{ padding: `0 4rem 0 4rem` }}>HOME</a>
-    </Link>
 
     <StaticImage
       src="../images/about.jpg"

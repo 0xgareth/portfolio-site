@@ -13,7 +13,7 @@ import { Link } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, location }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -23,25 +23,16 @@ const Layout = ({ children }) => {
       }
     }
   `)
+  
+  console.log(location)
 
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       
-      <div
-        style={{
-          // margin: `0 auto`,
-          // maxWidth: 1000,
-          // padding: ``,
-          // borderStyle: `solid`,
-          // borderColor: `red`,
-          // display: `flex`, 
-          // justifyContent: `center`, 
-       }}
-      >
-        {/* <main>{children}</main> */}
+        <main>{children}</main>
 
-      </div>
+      {/* </div> */}
 
       {/* footer */}
       <footer
@@ -52,20 +43,30 @@ const Layout = ({ children }) => {
             display:`flex`,
             justifyContent: `center`,
             width: `100%`,
+            borderStyle: `solid`,
+            borderColor: `red`,
           }}
         >
           <div style={{ display: `flex` }}>
-            <Link to="https://twitter.com/garethveale" target="_blank" style={{ textDecoration: `none` }}>
-              <a style={{ padding: `0 4rem 0 4rem` }}>Twitter</a>
+            <Link to="https://twitter.com/garethveale" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem` }}>
+              {/* <a style={{ padding: `0 4rem 0 4rem` }}> */}
+                Twitter
+                {/* </a> */}
             </Link>
-            <Link to="https://github.com/garethiv" target="_blank" style={{ textDecoration: `none` }}>
-              <a style={{ padding: `0 4rem 0 4rem` }}>Github</a>
+            <Link to="https://github.com/garethiv" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem` }}>
+              {/* <a style={{ padding: `0 4rem 0 4rem` }}> */}
+                Github
+                {/* </a> */}
             </Link>
-            <Link to="https://www.behance.net/garethveale" target="_blank" style={{ textDecoration: `none`}}>
-              <a style={{ padding: `0 4rem 0 4rem` }}>Behance</a>
+            <Link to="https://www.behance.net/garethveale" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem`}}>
+              {/* <a style={{ padding: `0 4rem 0 4rem` }}> */}
+                Behance
+                {/* </a> */}
             </Link>
-            <Link to="https://dribbble.com/garethveale" target="_blank" style={{ textDecoration: `none`}}>
-              <a style={{ padding: `0 4rem 0 4rem` }}>Dribble</a>
+            <Link to="https://dribbble.com/garethveale" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem`}}>
+              {/* <a style={{ padding: `0 4rem 0 4rem` }}> */}
+                Dribble
+                {/* </a> */}
             </Link>
           </div>
         </footer>

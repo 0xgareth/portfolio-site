@@ -1,4 +1,7 @@
 
+header
+- home button on all but home screen
+
 about 
 - layout and text
 - go home button
@@ -23,7 +26,7 @@ work specific
 home
 - image / main div needs to resize properly to fit on screen
     needs to be fixed in place 
-- fix title name positioning
+- dev / design div
 
 ----- Final touches -----
 animations

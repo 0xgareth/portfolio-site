@@ -1,12 +1,11 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const IndexPage = () => (
-  <Layout>
+const IndexPage = ({location}) => (
+  <Layout location={location}>
     <Seo title="Home" />
       {/* bottom layer */}
       {/* <div 
@@ -38,7 +37,7 @@ const IndexPage = () => (
             top:`60vh`,
             opacity: .3,
             transformOrigin: `0 50%` }} 
-        />
+        />l
         <ul 
           className='numbers' 
           style={{ 
@@ -61,50 +60,9 @@ const IndexPage = () => (
             <li style={{ color:`#707070`, opacity: .3 }}>10</li>
           </ul>
       </div> */}
-    {/* top layer */}
-    {/* <div 
-        className='top-layer' 
-        style={{
-          height: `100vh`,
-          width: `100vw`,
-          position: `absolute`,
-          top: 0,
-          left: 0,
-          zIndex: -1
-      }}>
-      <div 
-        className='circle-container'
-        style={{
-          width:`25vw`,
-          height:`25vh`,
-          top: `50%`,
-          left: `50%`,
-          position: `absolute`
-        }}
-      >
-        <div 
-          className='circle' 
-          style={{ 
-            border: `1px solid #707070`, 
-            borderRadius: `50%`, 
-            width: `100%`,
-            height: `100%`,
-            opacity: .1,
-            transform: `scaleX(1) scaleY(1)`
-          }} />
-      </div>
-    </div> */}
 
     {/* content */}
-    <div style={{ 
-      display: `flex`, 
-      flexDirection: `column`, 
-      justifyContent: `center`, 
-      borderStyle: `solid`,
-      borderColor: `green`,
-      maxWidth: 1000,
-      // margin: `5rem`,
-    }}>
+
         {/* image and title */}
         <div style={{
           position: `absolute`,
@@ -126,16 +84,17 @@ const IndexPage = () => (
             alt="home image"
             style={{ 
               marginBottom: 0,
+              maxWidth: `100%`
             }}
           />
-          <div style={{ 
+          {/* <div style={{ 
               display: `flex`, 
               flexDirection: `column`, 
               justifyContent: `flex-end`,
             }}>
                 <p style={{ color: `white`, }}>Dev / Animation</p>
                 <p style={{ color: `white`,  paddingTop:`0.1rem` }}>Visual and experience design</p>      
-            </div>
+            </div> */}
         </div>
 
         <div style={{
@@ -162,42 +121,6 @@ const IndexPage = () => (
                 WebkitTextStrokeWidth:`1px`
               }}>VEALE</h1>
         </div>
-          {/* <div style={{
-            position: `absolute`,
-            top: `52%`,
-            left: `50%`,
-            transform: `translate(-50%, -50%)`,
-            zIndex: `1.5`,
-            display: `flex`,
-            justifyContent: `space-between`,
-            flexDirection: `row`
-          }}>
-            <h1 style={{
-                color: `white`,
-                WebkitTextFillColor:`transparent`,
-                fontSize: `6vw`,
-                paddingRight: `25rem`,
-                textAlign:`left`,
-                WebkitTextStrokeWidth:`1px`
-              }}>GARETH</h1>
-            <h1 style={{
-                color: `white`,
-                WebkitTextFillColor:`transparent`,
-                fontSize: `6vw`,
-                textAlign:`right`,
-                WebkitTextStrokeWidth:`1px`
-              }}>VEALE</h1>
-          </div> */}
-
-        {/* social links */}
-        {/* <footer
-            style={{
-              marginTop: `1rem`, display: `flex`, justifyContent: `space-between`
-            }}
-          > */}
-            
-        {/* </footer> */}
-    </div>
   </Layout>
 )
 
