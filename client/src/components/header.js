@@ -15,6 +15,10 @@ return (
       width: `100%`,
       padding: `2rem 2rem 0 2rem`,
       overflow: `hidden`,
+      zIndex: `5`,
+      // display: `flex`,
+      // position:`absolute`,
+      // opacity: `0.1`
       // borderStyle: `solid`,
       // borderColor: `green`,
     }}
@@ -33,6 +37,7 @@ return (
           activeStyle={{ color: "#CC2936" }}
           style={{
             textDecoration: `none`,
+            opacity: `1`
           }}
       >
             About

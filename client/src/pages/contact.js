@@ -39,7 +39,7 @@ const Contact = ({location}) => (
           WebkitTextStrokeWidth:`1px` 
         }}>
             SAY HELLO
-          </h1>
+        </h1>
 
         <h1 style={{ 
           color:`white`, 

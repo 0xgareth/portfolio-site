@@ -15,7 +15,8 @@ const IndexPage = ({location}) => (
           width: `100vw`,
           position: `absolute`,
           top: 0,
-          left: 0
+          left: 0,
+          zIndex:`1`
       }}>
         <div 
           className='vertical'
@@ -25,7 +26,9 @@ const IndexPage = ({location}) => (
             position: `absolute`,
             height:`100%`,
             left:`50%`,
-            opacity: .3 }} 
+            opacity: .3,
+            zIndex:`1`
+          }} 
         />
         <div 
           className='horizontal'
@@ -34,7 +37,7 @@ const IndexPage = ({location}) => (
             height:`1px`,
             position: `absolute`,
             width:`100%`,
-            top:`60vh`,
+            top:`50vh`,
             opacity: .3,
             transformOrigin: `0 50%` }} 
         />l
@@ -104,22 +107,49 @@ const IndexPage = ({location}) => (
           transform: `translate(-50%, -50%)`,
           zIndex: `2`,
           display: `flex`,
-          justifyContent: `space-between`,
+          justifyContent: ``,
           flexDirection: `row`
         }}>
+          <div>
             <h1 style={{
                 color: `white`,
                 fontSize: `6vw`,
                 paddingRight: `25rem`,
-                textAlign:`left`
+                textAlign:`left`,
+                marginBlockEnd:`0em`,
+                marginBlockStart:`0.7em`,
+                lineHeight: `0.3`
               }}>GARETH</h1>
+            <h1 style={{
+                color: `white`,
+                fontSize: `6vw`,
+                paddingRight: `25rem`,
+                textAlign:`left`,
+                marginBlockStart:`0em`,
+                lineHeight: `0`,
+                WebkitTextStrokeWidth:`1px`,
+                WebkitTextFillColor:`transparent`,
+              }}>GARETH</h1>
+            </div>
+            <div>
+            <h1 style={{
+                color: `white`,
+                fontSize: `6vw`,
+                textAlign:`right`,
+                marginBlockEnd:`0em`,
+                marginBlockStart:`0.7em`,
+                lineHeight: `0.3`
+              }}>VEALE</h1>
             <h1 style={{
                 color: `white`,
                 WebkitTextFillColor:`transparent`,
                 fontSize: `6vw`,
                 textAlign:`right`,
-                WebkitTextStrokeWidth:`1px`
+                WebkitTextStrokeWidth:`1px`,
+                marginBlockStart:`0em`,
+                lineHeight: `0`,
               }}>VEALE</h1>
+            </div>
         </div>
   </Layout>
 )
