@@ -32,19 +32,18 @@ const Layout = ({ children, location }) => {
       
         <main>{children}</main>
 
-      {/* </div> */}
-
       {/* footer */}
       <footer
           style={{
-            marginBottom: `1.5rem`,
+            marginBottom: `1rem`,
             bottom: 0,
-            position:`absolute`,
+            position:`fixed`,
             display:`flex`,
             justifyContent: `center`,
             width: `100%`,
             borderStyle: `solid`,
             borderColor: `red`,
+            zIndex: `4`
           }}
         >
           <div style={{ display: `flex` }}>
