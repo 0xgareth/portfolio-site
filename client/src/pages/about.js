@@ -14,7 +14,7 @@ const About = ({location}) => (
         justifyContent: `flex-start`,
         borderStyle: `solid`,
         borderColor: `blue`,
-        height:`70vh`,
+        height:`75vh`,
         width:`100%`,
         marginTop: `3rem`,
     }}>
@@ -29,7 +29,7 @@ const About = ({location}) => (
           src="../images/about.jpg"
           layout="constrained"
           width={1200}
-          height={1000}
+          height={1200}
           quality={90}
           formats={["auto", "webp", "avif"]}
           alt="home image"

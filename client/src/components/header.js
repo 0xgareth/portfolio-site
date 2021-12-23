@@ -15,8 +15,8 @@ return (
       width: `100%`,
       padding: `2rem 2rem 0 2rem`,
       overflow: `hidden`,
-      borderStyle: `solid`,
-      borderColor: `green`,
+      // borderStyle: `solid`,
+      // borderColor: `green`,
     }}
   >
     <div

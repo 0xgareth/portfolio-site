@@ -41,8 +41,8 @@ const Layout = ({ children, location }) => {
             display:`flex`,
             justifyContent: `center`,
             width: `100%`,
-            borderStyle: `solid`,
-            borderColor: `red`,
+            // borderStyle: `solid`,
+            // borderColor: `red`,
             zIndex: `4`
           }}
         >

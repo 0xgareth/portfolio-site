@@ -11,20 +11,84 @@ const Contact = ({location}) => (
     <div 
       style={{
         display: `flex`,
-        justifyContent: `center`,
-        flexDirection: `column`,
-        borderStyle: `solid`,
-        borderColor: `blue`,
-        height:`70vh`,
+        justifyContent: `space-between`,
+        flexDirection: `row`,
+        // borderStyle: `solid`,
+        // borderColor: `blue`,
+        height:`80vh`,
         width:`100%`,
-        marginTop: `3rem`,
     }}>
 
-      <p style={{ color:`white` }}>SAY HELLO</p>
-      <p style={{ color:`white` }}>SAY HELLO</p>
-      <p style={{ color:`white` }}>SAY HELLO</p>
+      {/* left column */}
+      <div style={{
+        display: `flex`,
+        justifyContent: `center`,
+        alignItems: `center`,
+        flexDirection: `column`,
+        marginTop: ``,
+        paddingLeft: `5em`,
+        // borderStyle: `solid`,
+        // borderColor: `pink`,
+      }}>
 
-      <p style={{ color:`white` }}>gareth@garethveale.dev</p>
+        <h1 style={{ 
+          color:`white`, 
+          fontSize: `7vw`, 
+          lineHeight:`0`, 
+          WebkitTextFillColor:`transparent`, 
+          WebkitTextStrokeWidth:`1px` 
+        }}>
+            SAY HELLO
+          </h1>
+
+        <h1 style={{ 
+          color:`white`, 
+          fontSize: `7vw`, 
+          lineHeight:`0`,
+          marginBlockEnd:`0.15em`
+        }}>
+          SAY HELLO
+        </h1>
+        <h1 style={{ 
+          color:`white`, 
+          fontSize: `7vw`, 
+          lineHeight:`0`,
+          WebkitTextFillColor:`transparent`, 
+          WebkitTextStrokeWidth:`1px`,
+          marginBlockStart:`0em`,
+        }}>
+          SAY HELLO
+        </h1>
+
+        <h1 style={{ 
+          color:`white`, 
+          fontSize: `7vw`, 
+          lineHeight:`0`, 
+          WebkitTextFillColor:`transparent`, 
+          WebkitTextStrokeWidth:`1px` 
+        }}>
+          SAY HELLO
+        </h1>
+      </div>
+
+      {/* right column */}
+      <div style={{
+        display: `flex`,
+        justifyContent: `center`,
+        flexDirection: `column`,
+        alignItems:`flex-start`,
+        marginTop: ``,
+        paddingRight: `7em`,
+      }}>
+        <p style={{ color:`white`, fontSize: `3vw` }}>Get in touch for collaborations</p>
+        <p style={{ color:`#CC2936`, fontSize: `3vw`, marginTop: `1em` }}>gareth@garethveale.dev →</p>
+
+
+        <p style={{ color:`white`, fontSize: `1vw`, marginTop: `5em` }}>animation placeholder</p>
+        <p style={{ color:`white`, fontSize: `1vw`, marginTop: `1em` }}>animation placeholder</p>
+
+        
+      </div>
 
     </div>
 

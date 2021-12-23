@@ -1,15 +1,11 @@
 about 
 - layout and text
-- go home button
 
 contact 
-- layout and text
-- go home button
 - animate the bold hello - change between [yo, nihao, konnichiwa, bonjourm etc....]
 
 work
 - layout and text
-- go home button
 
 work specific 
 - decide how to do this? should it be a template?
@@ -28,23 +24,29 @@ home
 ----- Final touches -----
 animations
 - home 
-    - title side out from center
-    - full stack dev etc - slide in and apply multiple text effects
+    title side out from center
+    full stack dev etc - slide in and apply multiple text effects
         text animations - https://www.sliderrevolution.com/resources/css-text-animation/
-- about - image slide in from right & text slide in from right
-- contact - text slide up from bottom
-- projects - text slide up from bottom
-- home screen animation of some sort - shapes moving in the background / enable some shapes in the foreground
+- about 
+    image slide in from right & text slide in from right
+- contact 
+    text slide up from bottom
+- projects 
+    text slide up from bottom
+- home screen animation of some sort
+    shapes moving in the background / enable some shapes in the foreground
 - loading - page load transition 
     https://codepen.io/team/nclud/pen/MwaGGE
     - 'hey/welcome' with text effect on loading home page, slow reveal page
     - slow reveal page for rest of transitions
+
 
 styling
 - choose something other than white for text????
 - chrome tab icon
 - text style on 'full stack dev etc..' - like behance portfolio img on pinterest
     ( repeated text )
+
 
 responsiveness
 - home
@@ -57,6 +59,7 @@ responsiveness
     main div less thatn 70vh height when screen smaller
 - contact
     main div less thatn 70vh height when screen smaller
+    re-align text when screen smaller
 - work
     main div less thatn 70vh height when screen smaller
 
