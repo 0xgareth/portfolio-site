@@ -50,7 +50,8 @@ responsiveness
 - home
     font resize
     image resize
-    
+    move image position when height smaller 
+
 - about
     image resize to 90% width when screen size smaller
         move text to below the image
