@@ -48,7 +48,22 @@ const About = ({location}) => (
           borderColor: `yellow`,
           width:`50%`
       }}>
-          <p>Gareth.</p>
+          <p style={{ color:`white` }}>Gareth.</p>
+
+          <p style={{ color:`white` }}>a bit about myself</p>
+
+          <p style={{ color:`white` }}>
+            I’m Gareth - full stack developer, and experience
+            designer. My professional experience and interests 
+            consist of Python back-end engineering, freelance 
+            web development and animation, design, and 
+            creative direction.
+          </p>
+          
+          <p style={{ color:`white` }}>
+            My passions centre around engineering, design, 
+            and the creative experience of technology.
+          </p>
       </div>
 
 
