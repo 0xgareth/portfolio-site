@@ -51,8 +51,12 @@ responsiveness
     font resize
     image resize
     move image position when height smaller 
-
 - about
     image resize to 90% width when screen size smaller
         move text to below the image
     main div less thatn 70vh height when screen smaller
+- contact
+    main div less thatn 70vh height when screen smaller
+- work
+    main div less thatn 70vh height when screen smaller
+
