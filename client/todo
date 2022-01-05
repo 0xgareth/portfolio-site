@@ -1,3 +1,7 @@
+home
+- show dev / design somewhere
+- hide header border on all but home page
+
 about 
 - improve the typography - have a mixture of fonts to create better aesthetic 
 
@@ -16,11 +20,7 @@ work specific
 404
 - off white style - minimalist - all white small black text dotted around
 
-home
-- image / main div needs to resize properly to fit on screen
-    try gatsby background image instead
-    needs to be fixed in place 
-- dev / design div
+
 
 ----- Final touches -----
 animations

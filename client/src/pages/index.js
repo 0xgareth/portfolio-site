@@ -8,16 +8,40 @@ const IndexPage = ({location}) => (
   <Layout location={location}>
     <Seo title="Home" />
       {/* bottom layer */}
-      {/* <div 
+      <div 
         className='bottom-layer' 
         style={{
           height: `100vh`,
           width: `100vw`,
           position: `absolute`,
-          top: 0,
-          left: 0,
+          // top: 0,
+          // left: 0,
           zIndex:`1`
       }}>
+        {/* <div 
+          className='vertical'
+          style={{ 
+            background:`#707070`,
+            width:`1px`,
+            position: `absolute`,
+            height:`100%`,
+            left:`33%`,
+            opacity: .3,
+            // zIndex:`1`
+          }} 
+        />
+        <div 
+          className='vertical'
+          style={{ 
+            background:`#707070`,
+            width:`1px`,
+            position: `absolute`,
+            height:`100%`,
+            left:`66%`,
+            opacity: .3,
+            // zIndex:`1`
+          }} 
+        /> */}
         <div 
           className='vertical'
           style={{ 
@@ -27,7 +51,7 @@ const IndexPage = ({location}) => (
             height:`100%`,
             left:`50%`,
             opacity: .3,
-            zIndex:`1`
+            // zIndex:`1`
           }} 
         />
         <div 
@@ -37,15 +61,15 @@ const IndexPage = ({location}) => (
             height:`1px`,
             position: `absolute`,
             width:`100%`,
-            top:`50vh`,
+            top:`45vh`,
             opacity: .3,
             transformOrigin: `0 50%` }} 
-        />l
+        />
         <ul 
           className='numbers' 
           style={{ 
             display: `flex`, 
-            top: `33vh`, 
+            top: `12vh`, 
             width: `100%`, 
             position:`absolute`, 
             justifyContent: `space-between`,
@@ -62,14 +86,14 @@ const IndexPage = ({location}) => (
             <li style={{ color:`#707070`, opacity: .3 }}>09</li>
             <li style={{ color:`#707070`, opacity: .3 }}>10</li>
           </ul>
-      </div> */}
+      </div>
 
     {/* content */}
 
         {/* image and title */}
         <div style={{
           position: `absolute`,
-          top: `50%`,
+          top: `52%`,
           left: `50%`,
           transform: `translate(-50%, -50%)`,
           zIndex: `1`,
@@ -78,7 +102,7 @@ const IndexPage = ({location}) => (
           flexDirection: `column`,
           width: `50vw`,
         }}>
-          <StaticImage
+          {/* <StaticImage
             src="../images/home.png"
             width={1000}
             height={700}
@@ -89,7 +113,7 @@ const IndexPage = ({location}) => (
               marginBottom: 0,
               maxWidth: `100%`
             }}
-          />
+          /> */}
           {/* <div style={{ 
               display: `flex`, 
               flexDirection: `column`, 
@@ -102,19 +126,32 @@ const IndexPage = ({location}) => (
 
         <div style={{
           position: `absolute`,
-          top: `50%`,
+          top: `55%`,
           left: `50%`,
           transform: `translate(-50%, -50%)`,
           zIndex: `2`,
           display: `flex`,
-          justifyContent: ``,
+          justifyContent: `space-between`,
           flexDirection: `row`
         }}>
           <div>
+            {/* 1 */}
             <h1 style={{
                 color: `white`,
-                fontSize: `6vw`,
-                paddingRight: `25rem`,
+                fontSize: `6.5vw`,
+                marginRight: `25rem`,
+                textAlign:`left`,
+                marginBlockStart:`0em`,
+                marginBlockEnd:`1.25em`,
+                lineHeight: `0`,
+                WebkitTextStrokeWidth:`1px`,
+                WebkitTextFillColor:`transparent`,
+              }}>GARETH</h1>
+            {/* 2 */}
+            <h1 style={{
+                color: `white`,
+                fontSize: `6.5vw`,
+                marginRight: `25rem`,
                 textAlign:`left`,
                 marginBlockEnd:`0em`,
                 marginBlockStart:`0.7em`,
@@ -122,33 +159,72 @@ const IndexPage = ({location}) => (
               }}>GARETH</h1>
             <h1 style={{
                 color: `white`,
-                fontSize: `6vw`,
-                paddingRight: `25rem`,
+                fontSize: `6.5vw`,
+                marginRight: `25rem`,
+                textAlign:`left`,
+                marginBlockStart:`0em`,
+                marginBlockEnd:`1.25em`,
+                lineHeight: `0`,
+                WebkitTextStrokeWidth:`1px`,
+                WebkitTextFillColor:`transparent`,
+              }}>GARETH</h1>
+            {/* 3 */}
+            <h1 style={{
+                color: `white`,
+                fontSize: `6.5vw`,
+                marginRight: `25rem`,
                 textAlign:`left`,
                 marginBlockStart:`0em`,
                 lineHeight: `0`,
                 WebkitTextStrokeWidth:`1px`,
                 WebkitTextFillColor:`transparent`,
               }}>GARETH</h1>
+
+
             </div>
+
+
             <div>
-            <h1 style={{
-                color: `white`,
-                fontSize: `6vw`,
-                textAlign:`right`,
-                marginBlockEnd:`0em`,
-                marginBlockStart:`0.7em`,
-                lineHeight: `0.2`
-              }}>VEALE</h1>
-            <h1 style={{
-                color: `white`,
-                WebkitTextFillColor:`transparent`,
-                fontSize: `6vw`,
-                textAlign:`right`,
-                WebkitTextStrokeWidth:`1px`,
-                marginBlockStart:`0em`,
-                lineHeight: `0`,
-              }}>VEALE</h1>
+              {/* 1 */}
+              <h1 style={{
+                  color: `white`,
+                  WebkitTextFillColor:`transparent`,
+                  fontSize: `6.5vw`,
+                  textAlign:`right`,
+                  WebkitTextStrokeWidth:`1px`,
+                  marginBlockStart:`0em`,
+                  marginBlockEnd:`1.25em`,
+                  lineHeight: `0`,
+                }}>VEALE</h1>
+              {/* 2 */}
+              <h1 style={{
+                  color: `white`,
+                  fontSize: `6.5vw`,
+                  textAlign:`right`,
+                  marginBlockEnd:`0em`,
+                  marginBlockStart:`0.7em`,
+                  lineHeight: `0.2`
+                }}>VEALE</h1>
+              <h1 style={{
+                  color: `white`,
+                  WebkitTextFillColor:`transparent`,
+                  fontSize: `6.5vw`,
+                  textAlign:`right`,
+                  WebkitTextStrokeWidth:`1px`,
+                  marginBlockStart:`0em`,
+                  marginBlockEnd:`1.25em`,
+                  lineHeight: `0`,
+                }}>VEALE</h1>
+                {/* 3 */}
+                <h1 style={{
+                  color: `white`,
+                  WebkitTextFillColor:`transparent`,
+                  fontSize: `6.5vw`,
+                  textAlign:`right`,
+                  WebkitTextStrokeWidth:`1px`,
+                  marginBlockStart:`0em`,
+                  lineHeight: `0`,
+                }}>VEALE</h1>
             </div>
         </div>
   </Layout>

@@ -62,11 +62,6 @@ const Layout = ({ children, location }) => {
                 Behance
                 {/* </a> */}
             </Link>
-            <Link to="https://dribbble.com/garethveale" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem`}}>
-              {/* <a style={{ padding: `0 4rem 0 4rem` }}> */}
-                Dribble
-                {/* </a> */}
-            </Link>
           </div>
         </footer>
     </>

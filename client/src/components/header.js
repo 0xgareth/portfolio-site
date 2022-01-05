@@ -13,14 +13,15 @@ return (
     style={{
       background: `#030303`,
       width: `100%`,
-      padding: `2rem 2rem 0 2rem`,
+      padding: `1.25rem 2rem 1.25rem 2rem`,
       overflow: `hidden`,
-      zIndex: `5`,
+      zIndex: `1`,
       // display: `flex`,
       // position:`absolute`,
       // opacity: `0.1`
-      // borderStyle: `solid`,
-      // borderColor: `green`,
+      borderBottomStyle: `solid`,
+      borderColor: `#2F2F2F`,
+      borderWidth: `1px`
     }}
   >
     <div
