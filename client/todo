@@ -1,25 +1,16 @@
-home
-- show dev / design somewhere
-- hide header border on all but home page
-
 about 
-- improve the typography - have a mixture of fonts to create better aesthetic 
+- layout and design to match design
 
 contact 
 - animate the bold hello - change between [yo, nihao, konnichiwa, bonjourm etc....]
 - email clickable mailto thing
-
-work
-- layout and text
-- change design to match the website from Mihai - https://colors.combinations.obys.agency/ - white style with minimal & black text
-
-work specific 
-- decide how to do this? should it be a template?
-- layout and text
-- go back button
+- add a moving shape in the animation placeholder
 
 404
 - off white style - minimalist - all white small black text dotted around
+
+header
+- animate the hover like here https://aboutluca.com/
 
 
 

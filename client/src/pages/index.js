@@ -102,7 +102,7 @@ const IndexPage = ({location}) => (
           flexDirection: `column`,
           width: `50vw`,
         }}>
-          {/* <StaticImage
+          <StaticImage
             src="../images/home.png"
             width={1000}
             height={700}
@@ -113,7 +113,7 @@ const IndexPage = ({location}) => (
               marginBottom: 0,
               maxWidth: `100%`
             }}
-          /> */}
+          />
           {/* <div style={{ 
               display: `flex`, 
               flexDirection: `column`, 
@@ -136,7 +136,7 @@ const IndexPage = ({location}) => (
         }}>
           <div>
             {/* 1 */}
-            <h1 style={{
+            {/* <h1 style={{
                 color: `white`,
                 fontSize: `7vw`,
                 marginRight: `27rem`,
@@ -146,7 +146,7 @@ const IndexPage = ({location}) => (
                 lineHeight: `0`,
                 WebkitTextStrokeWidth:`1px`,
                 WebkitTextFillColor:`transparent`,
-              }}>GARETH</h1>
+              }}>GARETH</h1> */}
             {/* 2 */}
             <h1 style={{
                 color: `white`,
@@ -169,7 +169,7 @@ const IndexPage = ({location}) => (
                 WebkitTextFillColor:`transparent`,
               }}>GARETH</h1>
             {/* 3 */}
-            <h1 style={{
+            {/* <h1 style={{
                 color: `white`,
                 fontSize: `7vw`,
                 marginRight: `27rem`,
@@ -178,7 +178,7 @@ const IndexPage = ({location}) => (
                 lineHeight: `0`,
                 WebkitTextStrokeWidth:`1px`,
                 WebkitTextFillColor:`transparent`,
-              }}>GARETH</h1>
+              }}>GARETH</h1> */}
 
 
             </div>
@@ -186,7 +186,7 @@ const IndexPage = ({location}) => (
 
             <div>
               {/* 1 */}
-              <h1 style={{
+              {/* <h1 style={{
                   color: `white`,
                   WebkitTextFillColor:`transparent`,
                   fontSize: `7vw`,
@@ -195,7 +195,7 @@ const IndexPage = ({location}) => (
                   marginBlockStart:`0em`,
                   marginBlockEnd:`1.25em`,
                   lineHeight: `0`,
-                }}>VEALE</h1>
+                }}>VEALE</h1> */}
               {/* 2 */}
               <h1 style={{
                   color: `white`,
@@ -216,7 +216,7 @@ const IndexPage = ({location}) => (
                   lineHeight: `0`,
                 }}>VEALE</h1>
                 {/* 3 */}
-                <h1 style={{
+                {/* <h1 style={{
                   color: `white`,
                   WebkitTextFillColor:`transparent`,
                   fontSize: `7vw`,
@@ -224,7 +224,7 @@ const IndexPage = ({location}) => (
                   WebkitTextStrokeWidth:`1px`,
                   marginBlockStart:`0em`,
                   lineHeight: `0`,
-                }}>VEALE</h1>
+                }}>VEALE</h1> */}
             </div>
         </div>
   </Layout>

@@ -53,7 +53,7 @@ return (
       >
             Contact me
       </Link>
-      <Link
+      {/* <Link
           to="/work/"
           activeStyle={{ color: "#CC2936" }}
           style={{
@@ -62,7 +62,7 @@ return (
           }}
       >
             Work
-      </Link>
+      </Link> */}
     </div>
 
     <div style={{ display: `flex`, justifyContent:`center` }}>
