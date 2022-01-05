@@ -34,10 +34,10 @@ return (
     >
       <Link
           to="/about/"
-          activeStyle={{ color: "#CC2936" }}
+          activeStyle={{ color: "#2AB7CA" }}
           style={{
             textDecoration: `none`,
-            opacity: `1`
+            fontSize: `2vw`,
           }}
       >
             About
@@ -47,6 +47,7 @@ return (
           activeStyle={{ color: "#CC2936" }}
           style={{
             textDecoration: `none`,
+            fontSize: `2vw`,
           }}
       >
             Contact me
@@ -56,6 +57,7 @@ return (
           activeStyle={{ color: "#CC2936" }}
           style={{
             textDecoration: `none`,
+            fontSize: `2vw`,
           }}
       >
             Work
@@ -63,7 +65,7 @@ return (
     </div>
 
     <div style={{ display: `flex`, justifyContent:`center` }}>
-      {path === '' ? null : <Link to="/" style={{textDecoration: `none`,}}>HOME</Link>}
+      {path === '' ? null : <Link to="/" style={{textDecoration: `none`,fontSize: `1vw`,}}>HOME</Link>}
     </div>
   </nav>
 )}

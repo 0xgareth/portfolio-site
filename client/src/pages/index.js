@@ -118,7 +118,7 @@ const IndexPage = ({location}) => (
                 textAlign:`left`,
                 marginBlockEnd:`0em`,
                 marginBlockStart:`0.7em`,
-                lineHeight: `0.3`
+                lineHeight: `0.2`
               }}>GARETH</h1>
             <h1 style={{
                 color: `white`,
@@ -138,7 +138,7 @@ const IndexPage = ({location}) => (
                 textAlign:`right`,
                 marginBlockEnd:`0em`,
                 marginBlockStart:`0.7em`,
-                lineHeight: `0.3`
+                lineHeight: `0.2`
               }}>VEALE</h1>
             <h1 style={{
                 color: `white`,
