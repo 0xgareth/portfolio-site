@@ -138,8 +138,8 @@ const IndexPage = ({location}) => (
             {/* 1 */}
             <h1 style={{
                 color: `white`,
-                fontSize: `6.5vw`,
-                marginRight: `25rem`,
+                fontSize: `7vw`,
+                marginRight: `27rem`,
                 textAlign:`left`,
                 marginBlockStart:`0em`,
                 marginBlockEnd:`1.25em`,
@@ -150,8 +150,8 @@ const IndexPage = ({location}) => (
             {/* 2 */}
             <h1 style={{
                 color: `white`,
-                fontSize: `6.5vw`,
-                marginRight: `25rem`,
+                fontSize: `7vw`,
+                marginRight: `27rem`,
                 textAlign:`left`,
                 marginBlockEnd:`0em`,
                 marginBlockStart:`0.7em`,
@@ -159,8 +159,8 @@ const IndexPage = ({location}) => (
               }}>GARETH</h1>
             <h1 style={{
                 color: `white`,
-                fontSize: `6.5vw`,
-                marginRight: `25rem`,
+                fontSize: `7vw`,
+                marginRight: `27rem`,
                 textAlign:`left`,
                 marginBlockStart:`0em`,
                 marginBlockEnd:`1.25em`,
@@ -171,8 +171,8 @@ const IndexPage = ({location}) => (
             {/* 3 */}
             <h1 style={{
                 color: `white`,
-                fontSize: `6.5vw`,
-                marginRight: `25rem`,
+                fontSize: `7vw`,
+                marginRight: `27rem`,
                 textAlign:`left`,
                 marginBlockStart:`0em`,
                 lineHeight: `0`,
@@ -189,7 +189,7 @@ const IndexPage = ({location}) => (
               <h1 style={{
                   color: `white`,
                   WebkitTextFillColor:`transparent`,
-                  fontSize: `6.5vw`,
+                  fontSize: `7vw`,
                   textAlign:`right`,
                   WebkitTextStrokeWidth:`1px`,
                   marginBlockStart:`0em`,
@@ -199,7 +199,7 @@ const IndexPage = ({location}) => (
               {/* 2 */}
               <h1 style={{
                   color: `white`,
-                  fontSize: `6.5vw`,
+                  fontSize: `7vw`,
                   textAlign:`right`,
                   marginBlockEnd:`0em`,
                   marginBlockStart:`0.7em`,
@@ -208,7 +208,7 @@ const IndexPage = ({location}) => (
               <h1 style={{
                   color: `white`,
                   WebkitTextFillColor:`transparent`,
-                  fontSize: `6.5vw`,
+                  fontSize: `7vw`,
                   textAlign:`right`,
                   WebkitTextStrokeWidth:`1px`,
                   marginBlockStart:`0em`,
@@ -219,7 +219,7 @@ const IndexPage = ({location}) => (
                 <h1 style={{
                   color: `white`,
                   WebkitTextFillColor:`transparent`,
-                  fontSize: `6.5vw`,
+                  fontSize: `7vw`,
                   textAlign:`right`,
                   WebkitTextStrokeWidth:`1px`,
                   marginBlockStart:`0em`,

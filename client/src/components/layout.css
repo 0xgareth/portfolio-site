@@ -109,7 +109,7 @@ h2 {
   padding-right: 0;
   padding-top: 0;
   color: inherit;
-  font-family: Big Caslon;
+  font-family: Cabin;
   margin-left: 2rem;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
@@ -120,7 +120,7 @@ h2 {
   font-weight: 500;
 }
 p {
-  font-family: Big Caslon;
+  font-family: Cabin;
   margin-left: 2rem;
   margin-right: 1em;
   margin-top: 2em;

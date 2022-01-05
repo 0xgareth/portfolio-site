@@ -19,7 +19,7 @@ return (
       // display: `flex`,
       // position:`absolute`,
       // opacity: `0.1`
-      borderBottomStyle: `solid`,
+      borderBottomStyle: path === '' ?`solid` : '',
       borderColor: `#2F2F2F`,
       borderWidth: `1px`
     }}
