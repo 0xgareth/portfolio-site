@@ -11,58 +11,103 @@ const About = ({location}) => (
     <div 
       style={{
         display: `flex`,
-        justifyContent: `flex-start`,
         borderStyle: `solid`,
         borderColor: `blue`,
         height:`80vh`,
-        width:`100%`,
-        marginTop: `0rem`,
+        flexDirection:`column`,
+        marginBottom: `2rem`,
     }}>    
-      <div style={{
-          borderStyle: `solid`,
-          borderColor: `yellow`,
-          width:`50%`,
+      
+      {/* top */}
+      <div 
+        style={{
           display: `flex`,
           flexDirection:`column`,
-          paddingLeft: `3em`,
-          paddingRight: `2.5em`
-      }}>
-         
-          <p style={{ 
-            color:`white`,
-            fontSize: `2vw`,
-            lineHeight: `1.5em`,
-            marginBlockStart:`0`,
-            fontFamily: `Montserrat`
+          justifyContet: `center`,
+          borderStyle: `solid`,
+          borderColor: `green`,
+          height: `50%`
+        }}>
+        <h1 style={{
+          color: `white`,
+          fontSize: `10vw`,
+          marginBlockEnd:`0em`,
+          marginBlockStart:`0em`,
+          padding: `2rem 0 0 4rem`
+        }}>
+          DEVELOPER
+        </h1>
+        <div 
+          className='horizontal'
+          style={{ 
+            background:`#707070`,
+            height:`1px`,
+            marginLeft: `4rem`,
+            width:`66%`,
+            opacity: .3,
+            transformOrigin: `0 50%` }} 
+        />
+        <div style={{display: `flex`, flexDirection:`row`}}>
+          <h1 style={{
+            color: `white`,
+            fontSize: `10vw`,
+            marginBlockEnd:`0em`,
+            marginBlockStart:`0em`,
+            paddingLeft: `4rem`
           }}>
-            My passions centre around engineering, design, 
-            and the creative experience of technology.
-          </p>
+            DESIGNER
+          </h1>
+          <div style={{ 
+            margin: `2rem 0 0 2rem`, width: `6rem`, height: `4rem`, backgroundColor: `#F1A208`, borderRadius: `50%`,
+            alignItems: `center`, justifyContent: `center`,
+            }}> 
+            AND
+            <p style={{color: `white`, fontSize:`1.5vw`, paddingLeft: `2rem`}}>AND</p>
+          </div>
+          
+        </div>
       </div>
 
-      <div className="imageContainer" 
+
+
+
+
+
+
+
+
+
+
+      {/* bottom */}
+      <div 
         style={{
-          width:`40%`,
-          height:`80%`,
+          display: `flex`,
+          flexDirection:`row`,
           borderStyle: `solid`,
-          borderColor: `pink`,
-      }}>
-        <StaticImage
-          src="../images/about.jpg"
-          layout="constrained"
-          width={1200}
-          height={800}
-          quality={90}
-          formats={["auto", "webp", "avif"]}
-          alt="home image"
-          style={{ 
-            marginBottom: 0,
-            height: `100%`,
-            width: `100%`,
-            objectFit: `cover`
-          }}
-          transformOptions={{fit: "cover"}}
-        />
+          borderColor: `yellow`,
+          height: `50%`
+        }}>
+
+        <div 
+          style={{
+            display: `flex`,
+            borderStyle: `solid`,
+            borderColor: `pink`,
+            width:`50%`
+          }}>
+          
+        </div>
+
+        <div 
+          style={{
+            display: `flex`,
+            borderStyle: `solid`,
+            borderColor: `white`,
+            width:`50%`
+          }}>
+          
+        </div>
+
       </div>
     </div>
 

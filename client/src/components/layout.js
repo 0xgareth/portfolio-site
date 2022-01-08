@@ -24,7 +24,9 @@ const Layout = ({ children, location }) => {
     }
   `)
   
-  console.log(location)
+  const path = location.pathname.split('/')[1]
+  console.log(typeof(path))
+  console.log(path==='')
 
   return (
     <>
@@ -37,11 +39,11 @@ const Layout = ({ children, location }) => {
           style={{
             marginBottom: `1rem`,
             bottom: 0,
-            position:`fixed`,
+            position: 'fixed',
             display:`flex`,
             justifyContent: `center`,
             width: `100%`,
-            // borderStyle: `solid`,
+            // borderTopStyle: `solid`,
             // borderColor: `red`,
             zIndex: `4`
           }}

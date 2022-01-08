@@ -1,5 +1,9 @@
+home
+- add shapes
+
 about 
-- layout and design to match design
+- code to match design
+- cross out in yellow on some things when hovering over
 
 contact 
 - animate the bold hello - change between [yo, nihao, konnichiwa, bonjourm etc....]
@@ -11,6 +15,10 @@ contact
 
 header
 - animate the hover like here https://aboutluca.com/
+
+footer
+- draw yellow line on hover
+- fix on responsiveness
 
 
 

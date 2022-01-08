@@ -35,23 +35,23 @@ return (
     >
       <Link
           to="/about/"
-          activeStyle={{ color: "#2AB7CA" }}
+          // activeStyle={{ color: "#2AB7CA" }}
           style={{
             textDecoration: `none`,
-            fontSize: `2vw`,
+            fontSize: `1.2vw`,
           }}
       >
-            About
+            ABOUT
       </Link>
       <Link
           to="/contact/"
-          activeStyle={{ color: "#CC2936" }}
+          // activeStyle={{ color: "#CC2936" }}
           style={{
             textDecoration: `none`,
-            fontSize: `2vw`,
+            fontSize: `1.2vw`,
           }}
       >
-            Contact me
+            CONTACT
       </Link>
       {/* <Link
           to="/work/"

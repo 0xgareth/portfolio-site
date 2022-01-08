@@ -1,6 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -81,7 +79,7 @@ const Contact = ({location}) => (
         paddingRight: `7em`,
       }}>
         <p style={{ color:`white`, fontSize: `3vw` }}>Get in touch for collaborations</p>
-        <p style={{ color:`#CC2936`, fontSize: `3vw`, marginTop: `1em` }}>gareth@garethveale.dev →</p>
+        <p style={{ color:`white`, fontSize: `3vw`, marginTop: `1em` }}>gareth@garethveale.dev →</p>
 
 
         <p style={{ color:`white`, fontSize: `1vw`, marginTop: `5em` }}>animation placeholder</p>

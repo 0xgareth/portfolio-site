@@ -7,41 +7,67 @@ import Seo from "../components/seo"
 const IndexPage = ({location}) => (
   <Layout location={location}>
     <Seo title="Home" />
+      {/* shape layer */}
+      <div 
+        className='shape-layer'
+        style={{
+          height: `80vh`,
+          width: `100vw`,
+          overflow: `hidden`,
+          position: `absolute`,
+          zIndex: `0.5`
+        }}
+      >
+        <div
+          className="triangle-up"
+          style={{
+            width: `0`,
+            height: `0`,
+            left: `35%`,
+            top:`2%`,
+            position:`absolute`,
+            borderLeft: `12rem solid transparent`,
+            borderRight: `12rem solid transparent`,
+            borderBottom: `18em solid #4BB3FD`,
+            transform: `rotate(20deg)`
+          }}
+        />
+        <div
+          className="circle"
+          style={{
+            backgroundColor: `#F1A208`,
+            width: `20rem`,
+            height: `20rem`,
+            left: `20%`,
+            top:`60%`,
+            position:`absolute`,
+            borderRadius:`50%`
+          }}
+        />
+        <div
+          className="square"
+          style={{
+            backgroundColor: `#38A700`,
+            width: `18rem`,
+            height: `18rem`,
+            left: `68%`,
+            top:`55%`,
+            position:`absolute`,
+            transform: `rotate(40deg)`
+          }}
+        />
+      </div>
+
       {/* bottom layer */}
       <div 
         className='bottom-layer' 
         style={{
           height: `100vh`,
           width: `100vw`,
+          overflow: `hidden`,
           position: `absolute`,
-          // top: 0,
-          // left: 0,
           zIndex:`1`
       }}>
-        {/* <div 
-          className='vertical'
-          style={{ 
-            background:`#707070`,
-            width:`1px`,
-            position: `absolute`,
-            height:`100%`,
-            left:`33%`,
-            opacity: .3,
-            // zIndex:`1`
-          }} 
-        />
-        <div 
-          className='vertical'
-          style={{ 
-            background:`#707070`,
-            width:`1px`,
-            position: `absolute`,
-            height:`100%`,
-            left:`66%`,
-            opacity: .3,
-            // zIndex:`1`
-          }} 
-        /> */}
         <div 
           className='vertical'
           style={{ 
@@ -51,7 +77,6 @@ const IndexPage = ({location}) => (
             height:`100%`,
             left:`50%`,
             opacity: .3,
-            // zIndex:`1`
           }} 
         />
         <div 
@@ -89,41 +114,6 @@ const IndexPage = ({location}) => (
       </div>
 
     {/* content */}
-
-        {/* image and title */}
-        <div style={{
-          position: `absolute`,
-          top: `52%`,
-          left: `50%`,
-          transform: `translate(-50%, -50%)`,
-          zIndex: `1`,
-          display: `flex`,
-          justifyContent: `space-between`,
-          flexDirection: `column`,
-          width: `50vw`,
-        }}>
-          <StaticImage
-            src="../images/home.png"
-            width={1000}
-            height={700}
-            quality={100}
-            formats={["auto", "webp", "avif"]}
-            alt="home image"
-            style={{ 
-              marginBottom: 0,
-              maxWidth: `100%`
-            }}
-          />
-          {/* <div style={{ 
-              display: `flex`, 
-              flexDirection: `column`, 
-              justifyContent: `flex-end`,
-            }}>
-                <p style={{ color: `white`, }}>Dev / Animation</p>
-                <p style={{ color: `white`,  paddingTop:`0.1rem` }}>Visual and experience design</p>      
-            </div> */}
-        </div>
-
         <div style={{
           position: `absolute`,
           top: `55%`,
@@ -136,7 +126,7 @@ const IndexPage = ({location}) => (
         }}>
           <div>
             {/* 1 */}
-            {/* <h1 style={{
+            <h1 style={{
                 color: `white`,
                 fontSize: `7vw`,
                 marginRight: `27rem`,
@@ -146,7 +136,7 @@ const IndexPage = ({location}) => (
                 lineHeight: `0`,
                 WebkitTextStrokeWidth:`1px`,
                 WebkitTextFillColor:`transparent`,
-              }}>GARETH</h1> */}
+              }}>GARETH</h1>
             {/* 2 */}
             <h1 style={{
                 color: `white`,
@@ -169,7 +159,7 @@ const IndexPage = ({location}) => (
                 WebkitTextFillColor:`transparent`,
               }}>GARETH</h1>
             {/* 3 */}
-            {/* <h1 style={{
+            <h1 style={{
                 color: `white`,
                 fontSize: `7vw`,
                 marginRight: `27rem`,
@@ -178,15 +168,13 @@ const IndexPage = ({location}) => (
                 lineHeight: `0`,
                 WebkitTextStrokeWidth:`1px`,
                 WebkitTextFillColor:`transparent`,
-              }}>GARETH</h1> */}
-
-
+              }}>GARETH</h1>
             </div>
 
 
             <div>
               {/* 1 */}
-              {/* <h1 style={{
+              <h1 style={{
                   color: `white`,
                   WebkitTextFillColor:`transparent`,
                   fontSize: `7vw`,
@@ -195,7 +183,7 @@ const IndexPage = ({location}) => (
                   marginBlockStart:`0em`,
                   marginBlockEnd:`1.25em`,
                   lineHeight: `0`,
-                }}>VEALE</h1> */}
+                }}>VEALE</h1>
               {/* 2 */}
               <h1 style={{
                   color: `white`,
@@ -216,7 +204,7 @@ const IndexPage = ({location}) => (
                   lineHeight: `0`,
                 }}>VEALE</h1>
                 {/* 3 */}
-                {/* <h1 style={{
+                <h1 style={{
                   color: `white`,
                   WebkitTextFillColor:`transparent`,
                   fontSize: `7vw`,
@@ -224,8 +212,9 @@ const IndexPage = ({location}) => (
                   WebkitTextStrokeWidth:`1px`,
                   marginBlockStart:`0em`,
                   lineHeight: `0`,
-                }}>VEALE</h1> */}
+                }}>VEALE</h1>
             </div>
+            
         </div>
   </Layout>
 )
