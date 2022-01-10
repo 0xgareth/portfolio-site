@@ -21,8 +21,8 @@ const About = ({location}) => (
           className="circle"
           style={{
             backgroundColor: `#38A700`,
-            width: `10rem`,
-            height: `10rem`,
+            width: `13rem`,
+            height: `13rem`,
             left: `65%`,
             top:`22%`,
             position:`absolute`,
@@ -33,7 +33,14 @@ const About = ({location}) => (
             alignItems:`center`,
             textAlign:`center`
           }}
-      ><p style={{color:`white`, position:`absolute`, margin:`0`, fontSize:`1vw`}}>PROJECTS<br></br>ON GITHUB</p></div>
+      ><p 
+        style={{
+          color:`white`, 
+          position:`absolute`, 
+          margin:`0`, 
+          fontSize:`1.2vw`,
+          transform: `rotate(10deg)`
+        }}>PROJECTS<br></br>ON GITHUB</p></div>
 
       {/* top */}
       <div 
@@ -94,7 +101,7 @@ const About = ({location}) => (
               fontFamily:`Cabin`,
               color: `white`,
               padding: `2rem 0 0 6.5rem`,
-              fontSize:`0.75vw`,
+              fontSize:`0.9vw`,
               marginTop: `0`,
               lineHeight:`0`
           }}>
@@ -141,8 +148,8 @@ const About = ({location}) => (
               style={{
                 marginTop: `2.5rem`,
                 marginRight: `10rem`,
-                width: `25rem`,
-                height: `25rem`,
+                width: `22rem`,
+                height: `22rem`,
                 borderRadius:`50%`,
                 borderColor: `#2F2F2F`,
                 borderStyle: `solid`,
@@ -155,11 +162,10 @@ const About = ({location}) => (
             >
               <p style={{color:`white`, position:`absolute`, margin:`0`, fontSize:`1.3vw`}}>
                 fullstack development<br></br>
+                backend engineering<br></br>
                 web3<br></br>
                 web animation<br></br>
                 ui / ux design<br></br>
-                experience design<br></br>
-                creative coding<br></br>
               </p>
             </div>
           </div>
