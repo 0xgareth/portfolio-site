@@ -1,8 +1,6 @@
-- ensure font is actually Cabin as it looks like baskerville
 
 about
 - 
-
 home
 - animate / move shapes
 - position text correctly
@@ -25,6 +23,7 @@ footer
 page load transition 
     https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-page-transitions-with-plugin-transition-link/ 
     https://codepen.io/team/nclud/pen/MwaGGE
+    https://codepen.io/soju22/pen/zbjNWy
     - 'hey/welcome' with text effect on loading home page, slow reveal page
     - slow reveal page for rest of transitions
 

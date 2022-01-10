@@ -78,8 +78,8 @@ const Contact = ({location}) => (
         marginTop: ``,
         paddingRight: `7em`,
       }}>
-        <p style={{ color:`white`, fontSize: `3vw` }}>Get in touch for collaborations</p>
-        <a href="mailto:gareth@garethveale.dev" style={{ marginLeft: `2rem`, textDecoration: `None`, color:`white`, fontSize: `3vw`, marginTop: `1em` }}>gareth@garethveale.dev →</a>
+        <p style={{ fontFamily:'Montserrat-Light', color:`white`, fontSize: `2.5vw` }}>Get in touch for collaborations</p>
+        <a href="mailto:gareth@garethveale.dev" style={{ fontFamily:'Montserrat-Light', marginLeft: `2rem`, textDecoration: `None`, color:`white`, fontSize: `2.5vw`, marginTop: `1em` }}>gareth@garethveale.dev →</a>
 
 
         <p style={{ color:`white`, fontSize: `1vw`, marginTop: `5em` }}>animation placeholder</p>
