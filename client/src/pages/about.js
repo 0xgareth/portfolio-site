@@ -11,8 +11,6 @@ const About = ({location}) => (
     <div 
       style={{
         display: `flex`,
-        // borderStyle: `solid`,
-        // borderColor: `blue`,
         height:`80vh`,
         flexDirection:`column`,
         marginBottom: `2rem`,
@@ -23,15 +21,19 @@ const About = ({location}) => (
           className="circle"
           style={{
             backgroundColor: `#38A700`,
-            width: `12rem`,
-            height: `12rem`,
+            width: `10rem`,
+            height: `10rem`,
             left: `65%`,
             top:`22%`,
             position:`absolute`,
             borderRadius:`50%`,
-            zIndex: `5`
+            zIndex: `5`,
+            display:`flex`,
+            justifyContent:`center`,
+            alignItems:`center`,
+            textAlign:`center`
           }}
-        />
+      ><p style={{color:`white`, position:`absolute`, margin:`0`, fontSize:`1vw`}}>PROJECTS<br></br>ON GITHUB</p></div>
 
       {/* top */}
       <div 
@@ -39,9 +41,6 @@ const About = ({location}) => (
           display: `flex`,
           flexDirection:`column`,
           justifyContet: `center`,
-          // borderStyle: `solid`,
-          // borderColor: `green`,
-          // height: `35%`
         }}>
         <h1 style={{
           color: `white`,
@@ -52,16 +51,6 @@ const About = ({location}) => (
         }}>
           FULL STACK
         </h1>
-        {/* <div 
-          className='horizontal'
-          style={{ 
-            background:`#707070`,
-            height:`1px`,
-            marginLeft: `4rem`,
-            width:`46%`,
-            opacity: .3,
-            transformOrigin: `0 50%` }} 
-        /> */}
         <div style={{display: `flex`, flexDirection:`row`}}>
           <h1 style={{
             color: `white`,
@@ -81,10 +70,6 @@ const About = ({location}) => (
           display: `flex`,
           flexDirection:`row`,
           justifyContent:`space-between`,
-          // marginTop: `1rem`  
-          // borderStyle: `solid`,
-          // borderColor: `yellow`,
-          // height: `50%`
         }}>
 
         {/* left */}
@@ -92,8 +77,6 @@ const About = ({location}) => (
           style={{
             display: `flex`,
             flexDirection:`column`,
-            // borderStyle: `solid`,
-            // borderColor: `pink`,
             width:`33%`
           }}>
 
@@ -146,9 +129,6 @@ const About = ({location}) => (
             display: `flex`,
             flexDirection:`row`,
             marginTop: `3.5rem`,
-            // borderStyle: `solid`,
-            // borderColor: `white`,
-            // justifyContent:`space-around`,
             width:`60%`,
           }}>
 
@@ -166,9 +146,22 @@ const About = ({location}) => (
                 borderRadius:`50%`,
                 borderColor: `#2F2F2F`,
                 borderStyle: `solid`,
-                borderWidth: `1px`
+                borderWidth: `1px`,
+                display:`flex`,
+                justifyContent:`center`,
+                alignItems:`center`,
+                textAlign:`center`
               }}
-            />
+            >
+              <p style={{color:`white`, position:`absolute`, margin:`0`, fontSize:`1.3vw`}}>
+                fullstack development<br></br>
+                web3<br></br>
+                web animation<br></br>
+                ui / ux design<br></br>
+                experience design<br></br>
+                creative coding<br></br>
+              </p>
+            </div>
           </div>
           
           <StaticImage
