@@ -152,7 +152,7 @@ const About = ({location}) => (
               className="circle"
               style={{
                 marginTop: `2.5rem`,
-                marginRight: `5rem`,
+                marginRight: `8rem`,
                 width: `22rem`,
                 height: `22rem`,
                 borderRadius:`50%`,
