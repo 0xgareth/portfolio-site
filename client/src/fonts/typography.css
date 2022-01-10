@@ -6,6 +6,10 @@
     font-family: 'Montserrat-Light';
     src: local('Montserrat'), url('./Montserrat-Regular.ttf') format('truetype');
   }
+  @font-face {
+    font-family: 'Montserrat-Medium';
+    src: local('Montserrat'), url('./Montserrat-Medium.ttf') format('truetype');
+  }
 /* @font-face {
     font-family: 'Montserrat';
     font-style:bold;

@@ -39,6 +39,7 @@ return (
           style={{
             textDecoration: `none`,
             fontSize: `1.2vw`,
+            fontFamily:`Montserrat-Light`
           }}
       >
             ABOUT
@@ -49,6 +50,7 @@ return (
           style={{
             textDecoration: `none`,
             fontSize: `1.2vw`,
+            fontFamily:`Montserrat-Light`
           }}
       >
             CONTACT
@@ -66,7 +68,7 @@ return (
     </div>
 
     <div style={{ display: `flex`, justifyContent:`center` }}>
-      {path === '' ? null : <Link to="/" style={{textDecoration: `none`,fontSize: `1vw`,}}>HOME</Link>}
+      {path === '' ? null : <Link to="/" style={{textDecoration: `none`,fontSize: `1vw`,fontFamily:`Montserrat-Light`}}>HOME</Link>}
     </div>
   </nav>
 )}

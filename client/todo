@@ -1,13 +1,14 @@
-
-about
-- 
 home
 - animate / move shapes
 - position text correctly
 
+about
+- animate projects circle 
+
 contact 
 - animate the bold hello - change between [yo, nihao, konnichiwa, bonjourm etc....]
-- add moving shapes in animation placeholders
+- add moving shape in animation placeholders
+- animate the hovers - cross through with yellow line
 
 404
 - off white style - minimalist - all white small black text dotted around
@@ -18,6 +19,8 @@ header
 footer
 - add </ this site on github bottom left>
 - spinning object for email bottom right
+    https://codepen.io/serenacapozzi/pen/LYWyxNr
+    https://codepen.io/diogorodrigues/pen/mdJNwLv
 - do i need to use a different <Link> object? i think this one is for internal links only???
 
 page load transition 
@@ -26,7 +29,6 @@ page load transition
     https://codepen.io/soju22/pen/zbjNWy
     - 'hey/welcome' with text effect on loading home page, slow reveal page
     - slow reveal page for rest of transitions
-
 
 
 

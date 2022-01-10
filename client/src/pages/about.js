@@ -36,7 +36,7 @@ const About = ({location}) => (
       ><p 
         style={{
           color:`white`, 
-          fontFamily:`Montserrat-Light`,
+          fontFamily:`Montserrat-Medium`,
           position:`absolute`, 
           margin:`0`, 
           fontSize:`1.2vw`,
@@ -90,13 +90,13 @@ const About = ({location}) => (
 
           <p 
             style={{
-              fontFamily:`Montserrat-Light`,
+              fontFamily:`Montserrat-Medium`,
               color: `white`,
               padding: `5rem 0 0 6.5rem`,
               fontSize:`1.5vw`,
               lineHeight:`0`,
               fontStyle:`regular`,
-              fontWeight:`500`
+              fontWeight:`600`
           }}>
             A BIT ABOUT MYSELF, </p>
             <p 
