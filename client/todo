@@ -1,14 +1,14 @@
+- ensure font is actually Cabin as it looks like baskerville
+
 home
 - animate / move shapes
-- play about with the colors - they don't match design
 - position text correctly
 
 about
-- code to match design
+- get text inside circles
 
 contact 
 - animate the bold hello - change between [yo, nihao, konnichiwa, bonjourm etc....]
-- email clickable mail-to thing
 - add moving shapes in animation placeholders
 
 404
@@ -18,7 +18,9 @@ header
 - animate the hovers - like here https://aboutluca.com/
 
 footer
-- fix on responsiveness
+- add </ this site on github bottom left>
+- spinning object for email bottom right
+- do i need to use a different <Link> object? i think this one is for internal links only???
 
 page load transition 
     https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-page-transitions-with-plugin-transition-link/ 
@@ -26,8 +28,14 @@ page load transition
     - 'hey/welcome' with text effect on loading home page, slow reveal page
     - slow reveal page for rest of transitions
 
+
+
+
 responsiveness
 - home
     font resize and position
 - contact
+    font resize and position
 - about
+    all items resize and position
+    does I need to scroll?

@@ -123,12 +123,14 @@ p {
   font-family: Cabin;
   margin-left: 2rem;
   margin-right: 1em;
-  margin-top: 2em;
+  margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 0;
+  font-size: 1vw;
+  line-height: 1.3;
 }
 mark {
   background-color: #ff0;

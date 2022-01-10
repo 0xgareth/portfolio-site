@@ -90,7 +90,7 @@ const IndexPage = ({location}) => (
             opacity: .3,
             transformOrigin: `0 50%` }} 
         />
-        <ul 
+        {/* <ul 
           className='numbers' 
           style={{ 
             display: `flex`, 
@@ -110,7 +110,7 @@ const IndexPage = ({location}) => (
             <li style={{ color:`#707070`, opacity: .3 }}>08</li>
             <li style={{ color:`#707070`, opacity: .3 }}>09</li>
             <li style={{ color:`#707070`, opacity: .3 }}>10</li>
-          </ul>
+          </ul> */}
       </div>
 
     {/* content */}
