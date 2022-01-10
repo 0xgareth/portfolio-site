@@ -26,16 +26,16 @@ const About = ({location}) => (
           justifyContet: `center`,
           borderStyle: `solid`,
           borderColor: `green`,
-          height: `50%`
+          // height: `35%`
         }}>
         <h1 style={{
           color: `white`,
-          fontSize: `10vw`,
+          fontSize: `7vw`,
           marginBlockEnd:`0em`,
           marginBlockStart:`0em`,
           padding: `2rem 0 0 4rem`
         }}>
-          DEVELOPER
+          FULL STACK
         </h1>
         <div 
           className='horizontal'
@@ -43,38 +43,22 @@ const About = ({location}) => (
             background:`#707070`,
             height:`1px`,
             marginLeft: `4rem`,
-            width:`66%`,
+            width:`90%`,
             opacity: .3,
             transformOrigin: `0 50%` }} 
         />
         <div style={{display: `flex`, flexDirection:`row`}}>
           <h1 style={{
             color: `white`,
-            fontSize: `10vw`,
+            fontSize: `7vw`,
             marginBlockEnd:`0em`,
             marginBlockStart:`0em`,
             paddingLeft: `4rem`
           }}>
-            DESIGNER
-          </h1>
-          <div style={{ 
-            margin: `2rem 0 0 2rem`, width: `6rem`, height: `4rem`, backgroundColor: `#F1A208`, borderRadius: `50%`,
-            alignItems: `center`, justifyContent: `center`,
-            }}> 
-            AND
-            <p style={{color: `white`, fontSize:`1.5vw`, paddingLeft: `2rem`}}>AND</p>
-          </div>
-          
+            DEVELOPER
+          </h1>    
         </div>
       </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -85,7 +69,7 @@ const About = ({location}) => (
           flexDirection:`row`,
           borderStyle: `solid`,
           borderColor: `yellow`,
-          height: `50%`
+          // height: `50%`
         }}>
 
         <div 

@@ -19,7 +19,7 @@ const IndexPage = ({location}) => (
         }}
       >
         <div
-          className="triangle-up"
+          className="triangle"
           style={{
             width: `0`,
             height: `0`,
@@ -51,7 +51,7 @@ const IndexPage = ({location}) => (
             width: `18rem`,
             height: `18rem`,
             left: `68%`,
-            top:`55%`,
+            top:`60%`,
             position:`absolute`,
             transform: `rotate(40deg)`
           }}
@@ -126,7 +126,7 @@ const IndexPage = ({location}) => (
         }}>
           <div>
             {/* 1 */}
-            <h1 style={{
+            {/* <h1 style={{
                 color: `white`,
                 fontSize: `7vw`,
                 marginRight: `27rem`,
@@ -136,11 +136,11 @@ const IndexPage = ({location}) => (
                 lineHeight: `0`,
                 WebkitTextStrokeWidth:`1px`,
                 WebkitTextFillColor:`transparent`,
-              }}>GARETH</h1>
+              }}>GARETH</h1> */}
             {/* 2 */}
             <h1 style={{
                 color: `white`,
-                fontSize: `7vw`,
+                fontSize: `8vw`,
                 marginRight: `27rem`,
                 textAlign:`left`,
                 marginBlockEnd:`0em`,
@@ -149,7 +149,7 @@ const IndexPage = ({location}) => (
               }}>GARETH</h1>
             <h1 style={{
                 color: `white`,
-                fontSize: `7vw`,
+                fontSize: `8vw`,
                 marginRight: `27rem`,
                 textAlign:`left`,
                 marginBlockStart:`0em`,
@@ -159,7 +159,7 @@ const IndexPage = ({location}) => (
                 WebkitTextFillColor:`transparent`,
               }}>GARETH</h1>
             {/* 3 */}
-            <h1 style={{
+            {/* <h1 style={{
                 color: `white`,
                 fontSize: `7vw`,
                 marginRight: `27rem`,
@@ -168,13 +168,13 @@ const IndexPage = ({location}) => (
                 lineHeight: `0`,
                 WebkitTextStrokeWidth:`1px`,
                 WebkitTextFillColor:`transparent`,
-              }}>GARETH</h1>
+              }}>GARETH</h1> */}
             </div>
 
 
             <div>
               {/* 1 */}
-              <h1 style={{
+              {/* <h1 style={{
                   color: `white`,
                   WebkitTextFillColor:`transparent`,
                   fontSize: `7vw`,
@@ -183,11 +183,11 @@ const IndexPage = ({location}) => (
                   marginBlockStart:`0em`,
                   marginBlockEnd:`1.25em`,
                   lineHeight: `0`,
-                }}>VEALE</h1>
+                }}>VEALE</h1> */}
               {/* 2 */}
               <h1 style={{
                   color: `white`,
-                  fontSize: `7vw`,
+                  fontSize: `8vw`,
                   textAlign:`right`,
                   marginBlockEnd:`0em`,
                   marginBlockStart:`0.7em`,
@@ -196,7 +196,7 @@ const IndexPage = ({location}) => (
               <h1 style={{
                   color: `white`,
                   WebkitTextFillColor:`transparent`,
-                  fontSize: `7vw`,
+                  fontSize: `8vw`,
                   textAlign:`right`,
                   WebkitTextStrokeWidth:`1px`,
                   marginBlockStart:`0em`,
@@ -204,7 +204,7 @@ const IndexPage = ({location}) => (
                   lineHeight: `0`,
                 }}>VEALE</h1>
                 {/* 3 */}
-                <h1 style={{
+                {/* <h1 style={{
                   color: `white`,
                   WebkitTextFillColor:`transparent`,
                   fontSize: `7vw`,
@@ -212,7 +212,7 @@ const IndexPage = ({location}) => (
                   WebkitTextStrokeWidth:`1px`,
                   marginBlockStart:`0em`,
                   lineHeight: `0`,
-                }}>VEALE</h1>
+                }}>VEALE</h1> */}
             </div>
             
         </div>

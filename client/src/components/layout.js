@@ -49,17 +49,17 @@ const Layout = ({ children, location }) => {
           }}
         >
           <div style={{ display: `flex` }}>
-            <Link to="https://twitter.com/gareth_was_here" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem` }}>
+            <Link to="https://twitter.com/gareth_was_here" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem`, fontSize: `1.2vw` }}>
               {/* <a style={{ padding: `0 4rem 0 4rem` }}> */}
                 Twitter
                 {/* </a> */}
             </Link>
-            <Link to="https://github.com/garethiv" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem` }}>
+            <Link to="https://github.com/garethiv" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem`, fontSize: `1.2vw` }}>
               {/* <a style={{ padding: `0 4rem 0 4rem` }}> */}
                 Github
                 {/* </a> */}
             </Link>
-            <Link to="https://www.behance.net/garethveale" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem`}}>
+            <Link to="https://www.behance.net/garethveale" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem`, fontSize: `1.2vw` }}>
               {/* <a style={{ padding: `0 4rem 0 4rem` }}> */}
                 Behance
                 {/* </a> */}

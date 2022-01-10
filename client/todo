@@ -1,10 +1,10 @@
 home
 - animate / move shapes
-- play about with the colors - don't match design
+- play about with the colors - they don't match design
+- position text correctly
 
-about 
+about
 - code to match design
-- cross out in yellow on some things when hovering over
 
 contact 
 - animate the bold hello - change between [yo, nihao, konnichiwa, bonjourm etc....]
@@ -18,9 +18,7 @@ header
 - animate the hovers - like here https://aboutluca.com/
 
 footer
-- draw yellow line on hover
 - fix on responsiveness
-
 
 page load transition 
     https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-page-transitions-with-plugin-transition-link/ 
@@ -30,13 +28,6 @@ page load transition
 
 responsiveness
 - home
-    font resize
-    image resize
-    move image position when height smaller 
-- about
-    image resize to 90% width when screen size smaller
-        move text to below the image
-    main div less thatn 70vh height when screen smaller
+    font resize and position
 - contact
-    main div less thatn 70vh height when screen smaller
-    re-align text when screen smaller
+- about
