@@ -1,11 +1,11 @@
 - ensure font is actually Cabin as it looks like baskerville
 
+about
+- get text inside circles
+
 home
 - animate / move shapes
 - position text correctly
-
-about
-- get text inside circles
 
 contact 
 - animate the bold hello - change between [yo, nihao, konnichiwa, bonjourm etc....]
