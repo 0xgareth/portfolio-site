@@ -36,10 +36,11 @@ const About = ({location}) => (
       ><p 
         style={{
           color:`white`, 
+          fontFamily:`Montserrat-Light`,
           position:`absolute`, 
           margin:`0`, 
           fontSize:`1.2vw`,
-          transform: `rotate(10deg)`
+          transform: `rotate(10deg)`,
         }}>PROJECTS<br></br>ON GITHUB</p></div>
 
       {/* top */}
@@ -84,26 +85,28 @@ const About = ({location}) => (
           style={{
             display: `flex`,
             flexDirection:`column`,
-            width:`33%`
+            width:`40%`
           }}>
 
           <p 
             style={{
-              fontFamily:`Montserrat`,
+              fontFamily:`Montserrat-Light`,
               color: `white`,
               padding: `5rem 0 0 6.5rem`,
               fontSize:`1.5vw`,
-              lineHeight:`0`
+              lineHeight:`0`,
+              fontStyle:`regular`,
+              fontWeight:`500`
           }}>
             A BIT ABOUT MYSELF, </p>
             <p 
             style={{
-              fontFamily:`Cabin`,
+              fontFamily:`Montserrat-Light`,
               color: `white`,
               padding: `2rem 0 0 6.5rem`,
               fontSize:`0.9vw`,
               marginTop: `0`,
-              lineHeight:`0`
+              lineHeight:`0`,
           }}>
             and what I do.</p>
 
@@ -137,6 +140,8 @@ const About = ({location}) => (
             flexDirection:`row`,
             marginTop: `3.5rem`,
             width:`60%`,
+            paddingLeft:`0rem`,
+            justifyContent:`center`,
           }}>
 
           <div 
@@ -147,7 +152,7 @@ const About = ({location}) => (
               className="circle"
               style={{
                 marginTop: `2.5rem`,
-                marginRight: `10rem`,
+                marginRight: `5rem`,
                 width: `22rem`,
                 height: `22rem`,
                 borderRadius:`50%`,
@@ -160,12 +165,21 @@ const About = ({location}) => (
                 textAlign:`center`
               }}
             >
-              <p style={{color:`white`, position:`absolute`, margin:`0`, fontSize:`1.3vw`}}>
-                fullstack development<br></br>
-                backend engineering<br></br>
-                web3<br></br>
-                web animation<br></br>
-                ui / ux design<br></br>
+              <p 
+                style={{
+                  fontFamily:`Montserrat-Light`,
+                  color:`white`, 
+                  position:`absolute`, 
+                  margin:`0`, 
+                  fontSize:`1.15vw`,
+                  fontStyle:`regular`,
+                  fontWeight:`500`}}
+              >
+                    fullstack development<br></br>
+                    backend engineering<br></br>
+                    web3<br></br>
+                    web animation<br></br>
+                    ui / ux design<br></br>
               </p>
             </div>
           </div>
@@ -177,7 +191,7 @@ const About = ({location}) => (
             quality={90}
             formats={["auto", "webp", "avif"]}
             alt="About image"
-            style={{ marginBottom: `1.45rem`, marginLeft: `5rem` }}
+            style={{ marginBottom: `1.45rem` }}
           />
 
         </div>
