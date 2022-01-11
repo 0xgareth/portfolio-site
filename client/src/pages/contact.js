@@ -75,8 +75,6 @@ const Contact = ({location}) => {
             </h1>
           </div>
 
-
-
           {/* 3 */}
           <h1 style={{ 
             color:`white`, 
@@ -102,11 +100,9 @@ const Contact = ({location}) => {
           <p style={{ fontFamily:'Montserrat-Light', color:`white`, fontSize: `2.5vw` }}>Get in touch for collaborations</p>
           <a href="mailto:gareth@garethveale.dev" style={{textDecoration:`None`}}><span style={{ fontFamily:'Montserrat-Light', marginLeft: `2rem`, color:`white`, fontSize: `2.5vw`, marginTop: `1em` }}>gareth@garethveale.dev →</span></a>
 
-
           <p style={{ color:`white`, fontSize: `1vw`, marginTop: `5em` }}>animation placeholder</p>
           <p style={{ color:`white`, fontSize: `1vw`, marginTop: `1em` }}>animation placeholder</p>
-
-          
+        
         </div>
 
       </div>

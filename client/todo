@@ -1,16 +1,23 @@
 
-contact 
-- add moving shape in animation placeholders
 
 header
 - animate the hovers - like here https://aboutluca.com/
+
+contact 
+- add moving shape in animation placeholders
 
 footer
 - add </ this site on github bottom left>
 - spinning object for email bottom right
     https://codepen.io/serenacapozzi/pen/LYWyxNr
     https://codepen.io/diogorodrigues/pen/mdJNwLv
-- do i need to use a different <Link> object? i think this one is for internal links only???
+
+home
+- animate / move shapes
+
+about
+- animate projects circle 
+
 
 page load transition 
     https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-page-transitions-with-plugin-transition-link/ 
@@ -18,7 +25,6 @@ page load transition
     https://codepen.io/soju22/pen/zbjNWy
     - 'hey/welcome' with text effect on loading home page, slow reveal page
     - slow reveal page for rest of transitions
-
 
 
 
@@ -35,11 +41,3 @@ responsiveness
     does I need to scroll?
 - 404
     font resize
-
-
-FUTURE WORK
-
-home
-- animate / move shapes
-about
-- animate projects circle 
