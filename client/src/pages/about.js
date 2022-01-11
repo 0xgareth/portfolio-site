@@ -126,7 +126,7 @@ const About = ({location}) => (
           }}>
             I have industry experience in Python
             back-end engineering and full-stack
-            web development. I'm constantly building
+            web development. I'm always building
             projects to teach myself new skills. I'm currently
             learning web3, blockchain, web 
             animation, and ui/ux design.</p>

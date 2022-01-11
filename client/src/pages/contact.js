@@ -11,8 +11,6 @@ const Contact = ({location}) => (
         display: `flex`,
         justifyContent: `space-between`,
         flexDirection: `row`,
-        // borderStyle: `solid`,
-        // borderColor: `blue`,
         height:`80vh`,
         width:`100%`,
     }}>
@@ -25,8 +23,6 @@ const Contact = ({location}) => (
         flexDirection: `column`,
         marginTop: ``,
         paddingLeft: `5em`,
-        // borderStyle: `solid`,
-        // borderColor: `pink`,
       }}>
 
         <h1 style={{ 

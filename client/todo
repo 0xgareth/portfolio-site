@@ -1,17 +1,8 @@
-home
-- animate / move shapes
-- position text correctly
-
-about
-- animate projects circle 
 
 contact 
 - animate the bold hello - change between [yo, nihao, konnichiwa, bonjourm etc....]
 - add moving shape in animation placeholders
 - animate the hovers - cross through with yellow line
-
-404
-- off white style - minimalist - all white small black text dotted around
 
 header
 - animate the hovers - like here https://aboutluca.com/
@@ -40,3 +31,13 @@ responsiveness
 - about
     all items resize and position
     does I need to scroll?
+- 404
+    font resize
+
+
+FUTURE WORK
+
+home
+- animate / move shapes
+about
+- animate projects circle 

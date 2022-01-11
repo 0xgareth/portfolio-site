@@ -1,6 +1,4 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -8,7 +6,7 @@ const IndexPage = ({location}) => (
   <Layout location={location}>
     <Seo title="Home" />
       {/* shape layer */}
-      <div 
+      {/* <div 
         className='shape-layer'
         style={{
           height: `80vh`,
@@ -56,10 +54,10 @@ const IndexPage = ({location}) => (
             transform: `rotate(40deg)`
           }}
         />
-      </div>
+      </div> */}
 
       {/* bottom layer */}
-      <div 
+      {/* <div 
         className='bottom-layer' 
         style={{
           height: `100vh`,
@@ -89,7 +87,7 @@ const IndexPage = ({location}) => (
             top:`45vh`,
             opacity: .3,
             transformOrigin: `0 50%` }} 
-        />
+        /> */}
         {/* <ul 
           className='numbers' 
           style={{ 
@@ -111,18 +109,20 @@ const IndexPage = ({location}) => (
             <li style={{ color:`#707070`, opacity: .3 }}>09</li>
             <li style={{ color:`#707070`, opacity: .3 }}>10</li>
           </ul> */}
-      </div>
+      {/* </div> */}
 
     {/* content */}
         <div style={{
-          position: `absolute`,
-          top: `55%`,
-          left: `50%`,
-          transform: `translate(-50%, -50%)`,
+          // position: `absolute`,
+          // top: `55%`,
+          // left: `50%`,
+          // transform: `translate(-50%, -50%)`,
           zIndex: `2`,
           display: `flex`,
-          justifyContent: `space-between`,
-          flexDirection: `row`
+          justifyContent: `center`,
+          alignItems:`center`,
+          flexDirection: `row`,
+          height:`90vh`
         }}>
           <div>
             {/* 1 */}
@@ -216,6 +216,41 @@ const IndexPage = ({location}) => (
             </div>
             
         </div>
+
+        {/* <div style={{
+          position: `absolute`,
+          top: `57%`,
+          left: `83%`,
+          transform: `translate(-50%, -50%)`,
+          zIndex: `2`,
+          display: `flex`,
+          // justifyContent: `space-between`,
+          justifyContent: `center`,
+          flexDirection: `row`
+        }}>
+          <div>
+           <h1 style={{
+                color: `white`,
+                fontSize: `8vw`,
+                marginRight: `27rem`,
+                textAlign:`left`,
+                marginBlockEnd:`0em`,
+                marginBlockStart:`0.7em`,
+                lineHeight: `0.2`
+              }}>VEALE</h1>
+            <h1 style={{
+                color: `white`,
+                fontSize: `8vw`,
+                marginRight: `27rem`,
+                textAlign:`left`,
+                marginBlockStart:`0em`,
+                marginBlockEnd:`1.25em`,
+                lineHeight: `0`,
+                WebkitTextStrokeWidth:`1px`,
+                WebkitTextFillColor:`transparent`,
+              }}>VEALE</h1>
+            </div>
+        </div> */}
   </Layout>
 )
 
