@@ -117,7 +117,7 @@ const IndexPage = ({location}) => (
           // top: `55%`,
           // left: `50%`,
           // transform: `translate(-50%, -50%)`,
-          zIndex: `2`,
+          zIndex: `5`,
           display: `flex`,
           justifyContent: `center`,
           alignItems:`center`,

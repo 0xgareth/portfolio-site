@@ -101,7 +101,7 @@ const About = ({location}) => (
             A BIT ABOUT MYSELF, </p>
             <p 
             style={{
-              fontFamily:`Montserrat-Light`,
+              fontFamily:`Montserrat-LightItalic`,
               color: `white`,
               padding: `2rem 0 0 6.5rem`,
               fontSize:`0.9vw`,
@@ -128,8 +128,8 @@ const About = ({location}) => (
             back-end engineering and full-stack
             web development. I'm always building
             projects to teach myself new skills. I'm currently
-            learning web3, blockchain, web 
-            animation, and ui/ux design.</p>
+            learning web3, blockchain, and web 
+            animation.</p>
 
         </div>
 
@@ -153,8 +153,8 @@ const About = ({location}) => (
               style={{
                 marginTop: `2.5rem`,
                 marginRight: `8rem`,
-                width: `22rem`,
-                height: `22rem`,
+                width: `20rem`,
+                height: `20rem`,
                 borderRadius:`50%`,
                 borderColor: `#2F2F2F`,
                 borderStyle: `solid`,
@@ -179,7 +179,6 @@ const About = ({location}) => (
                     backend engineering<br></br>
                     web3<br></br>
                     web animation<br></br>
-                    ui / ux design<br></br>
               </p>
             </div>
           </div>

@@ -1,14 +1,10 @@
 
-
-header
-- animate the hovers - like here https://aboutluca.com/
-
 contact 
 - add moving shape in animation placeholders
 
 footer
-- add </ this site on github bottom left>
-- spinning object for email bottom right
+- add </ this site on github bottom left >
+- spinning object for email bottom right 
     https://codepen.io/serenacapozzi/pen/LYWyxNr
     https://codepen.io/diogorodrigues/pen/mdJNwLv
 
@@ -17,7 +13,7 @@ home
 
 about
 - animate projects circle 
-
+- constant underline of keywords in text
 
 page load transition 
     https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-page-transitions-with-plugin-transition-link/ 
@@ -36,8 +32,11 @@ responsiveness
     font resize and position
 - contact
     font resize and position
+    animation resize?
 - about
     all items resize and position
-    does I need to scroll?
+    do I need to scroll?
 - 404
     font resize
+- header animation
+- footer animation
