@@ -24,15 +24,25 @@ const Layout = ({ children, location }) => {
           }}
         >
           <div style={{ display: `flex` }}>
-            <Link to="https://twitter.com/gareth_was_here" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem`, fontSize: `0.9vw`, fontFamily:`Montserrat-Light` }}>
-                Twitter
-            </Link>
-            <Link to="https://github.com/garethiv" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem`, fontSize: `0.9vw`, fontFamily:`Montserrat-Light` }}>
-                Github
-            </Link>
-            <Link to="https://www.behance.net/garethveale" target="_blank" style={{ textDecoration: `none`, padding: `0 4rem 0 4rem`, fontSize: `0.9vw`, fontFamily:`Montserrat-Light` }}>
-                Behance
-            </Link>
+
+          <div style={{padding:`0 4rem 0 4rem`}}>
+            <a href="https://twitter.com/gareth_was_here" target="_blank" style={{textDecoration:`None`}}>
+              <span className="footerItem" style={{ padding: ``, fontSize: `0.9vw`, fontFamily:`Montserrat-Light` }}>Twitter</span>
+            </a>
+          </div>
+
+          <div style={{padding:`0 4rem 0 4rem`}}>
+            <a href="https://github.com/garethiv" target="_blank" style={{textDecoration:`None`}}>
+              <span className="footerItem" style={{ padding: ``, fontSize: `0.9vw`, fontFamily:`Montserrat-Light` }}>Github</span>
+            </a>
+          </div>
+
+          <div style={{padding:`0 4rem 0 4rem`}}>
+            <a href="https://www.behance.net/garethveale" target="_blank" style={{textDecoration:`None`}}>
+              <span className="footerItem" style={{ padding: ``, fontSize: `0.9vw`, fontFamily:`Montserrat-Light` }}>Behance</span>
+            </a>
+          </div>
+
           </div>
         </footer>
     </>
