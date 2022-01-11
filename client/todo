@@ -2,6 +2,10 @@
 contact 
 - add moving shape in animation placeholders
 
+about
+- animate projects circle
+- constant underline of keywords in text
+
 footer
 - add </ this site on github bottom left >
 - spinning object for email bottom right 
@@ -11,9 +15,10 @@ footer
 home
 - animate / move shapes
 
-about
-- animate projects circle 
-- constant underline of keywords in text
+
+
+
+
 
 page load transition 
     https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-page-transitions-with-plugin-transition-link/ 
@@ -21,11 +26,6 @@ page load transition
     https://codepen.io/soju22/pen/zbjNWy
     - 'hey/welcome' with text effect on loading home page, slow reveal page
     - slow reveal page for rest of transitions
-
-
-
-
-
 
 responsiveness
 - home
