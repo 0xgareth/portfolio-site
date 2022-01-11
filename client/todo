@@ -1,6 +1,5 @@
 
 contact 
-- animate the bold hello - change between [yo, nihao, konnichiwa, bonjourm etc....]
 - add moving shape in animation placeholders
 - animate the hovers - cross through with yellow line
 
@@ -20,6 +19,10 @@ page load transition
     https://codepen.io/soju22/pen/zbjNWy
     - 'hey/welcome' with text effect on loading home page, slow reveal page
     - slow reveal page for rest of transitions
+
+
+
+
 
 
 
