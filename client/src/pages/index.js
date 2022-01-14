@@ -141,7 +141,7 @@ const IndexPage = ({location}) => (
             <h1 style={{
                 color: `white`,
                 fontSize: `8vw`,
-                marginRight: `27rem`,
+                marginRight: `15rem`,
                 textAlign:`left`,
                 marginBlockEnd:`0em`,
                 marginBlockStart:`0.7em`,
@@ -150,7 +150,7 @@ const IndexPage = ({location}) => (
             <h1 style={{
                 color: `white`,
                 fontSize: `8vw`,
-                marginRight: `27rem`,
+                marginRight: `15rem`,
                 textAlign:`left`,
                 marginBlockStart:`0em`,
                 marginBlockEnd:`1.25em`,

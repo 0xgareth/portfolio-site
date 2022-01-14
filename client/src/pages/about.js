@@ -85,7 +85,7 @@ const About = ({location}) => (
           style={{
             display: `flex`,
             flexDirection:`column`,
-            width:`40%`
+            width:`50%`
           }}>
 
           <p 
@@ -152,7 +152,7 @@ const About = ({location}) => (
               className="circle"
               style={{
                 marginTop: `2.5rem`,
-                marginRight: `8rem`,
+                marginRight: `0`,
                 width: `20rem`,
                 height: `20rem`,
                 borderRadius:`50%`,
@@ -183,7 +183,7 @@ const About = ({location}) => (
             </div>
           </div>
           
-          <StaticImage
+          {/* <StaticImage
             src="../images/about.jpg"
             width={400}
             height={550}
@@ -191,7 +191,7 @@ const About = ({location}) => (
             formats={["auto", "webp", "avif"]}
             alt="About image"
             style={{ marginBottom: `1.45rem` }}
-          />
+          /> */}
 
         </div>
 

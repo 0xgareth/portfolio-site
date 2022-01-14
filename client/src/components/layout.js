@@ -22,27 +22,21 @@ const Layout = ({ children, location }) => {
             zIndex: `4`
           }}
         >
-          <div style={{ display: `flex` }}>
+          {/* <div style={{ display: `flex` }}>
 
-          <div style={{padding:`0 4rem 0 4rem`}}>
-            <a href="https://twitter.com/gareth_was_here" target="_blank" style={{textDecoration:`None`}}>
-              <span className="footerItem" style={{ padding: ``, fontSize: `0.9vw`, fontFamily:`Montserrat-Light` }}>Twitter</span>
-            </a>
-          </div>
+            <div style={{padding:`0 4rem 0 4rem`}}>
+              <a href="https://twitter.com/gareth_was_here" target="_blank" style={{textDecoration:`None`}}>
+                <span className="footerItem" style={{ padding: ``, fontSize: `0.9vw`, fontFamily:`Montserrat-Light` }}>Twitter</span>
+              </a>
+            </div>
 
-          <div style={{padding:`0 4rem 0 4rem`}}>
-            <a href="https://github.com/garethiv" target="_blank" style={{textDecoration:`None`}}>
-              <span className="footerItem" style={{ padding: ``, fontSize: `0.9vw`, fontFamily:`Montserrat-Light` }}>Github</span>
-            </a>
-          </div>
+            <div style={{padding:`0 4rem 0 4rem`}}>
+              <a href="https://github.com/garethiv" target="_blank" style={{textDecoration:`None`}}>
+                <span className="footerItem" style={{ padding: ``, fontSize: `0.9vw`, fontFamily:`Montserrat-Light` }}>Github</span>
+              </a>
+            </div>
+          </div> */}
 
-          <div style={{padding:`0 4rem 0 4rem`}}>
-            <a href="https://www.behance.net/garethveale" target="_blank" style={{textDecoration:`None`}}>
-              <span className="footerItem" style={{ padding: ``, fontSize: `0.9vw`, fontFamily:`Montserrat-Light` }}>Behance</span>
-            </a>
-          </div>
-
-          </div>
         </footer>
     </>
   )

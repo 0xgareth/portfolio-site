@@ -14,9 +14,9 @@ const Header = ({ location }) => {
           padding: `1.25rem 2rem 1.25rem 2rem`,
           overflow: `hidden`,
           zIndex: `1`,
-          borderBottomStyle: path === '' ?`solid` : '',
-          borderColor: `#2F2F2F`,
-          borderWidth: `1px`
+          // borderBottomStyle: path === '' ?`solid` : '',
+          // borderColor: `#2F2F2F`,
+          // borderWidth: `1px`
         }}
       >
         <div
