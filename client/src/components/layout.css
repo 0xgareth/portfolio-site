@@ -6,7 +6,7 @@
   --line-active: #38A700;
 }
 
-svg {
+.header-svg {
   width: 76px;
   height: 40px;
   position: absolute;
