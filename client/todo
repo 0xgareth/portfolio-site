@@ -1,29 +1,11 @@
-footer
-- social link icons in a vertical line on left side
-
-- spinning object for email bottom right 
-    https://codepen.io/serenacapozzi/pen/LYWyxNr
-    https://codepen.io/diogorodrigues/pen/mdJNwLv
-
-page load transition 
+Page load transition 
     https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-page-transitions-with-plugin-transition-link/ 
     https://codepen.io/team/nclud/pen/MwaGGE
     https://codepen.io/soju22/pen/zbjNWy
     - 'hey/welcome' with text effect on loading home page, slow reveal page
     - slow reveal page for rest of transitions
 
-home
-- moving shapes
-
-title favicon
-- find something to use
-
-blog
-- import blog functionality
-- link to blog on home page
-- style blog accordingly
-
-responsiveness
+Responsiveness
 - home
     font resize and position
 - contact
@@ -36,3 +18,12 @@ responsiveness
     font resize
 - header animation
 - footer animation
+
+
+
+home
+- moving shapes
+blog
+- import blog functionality
+- link to blog on home page
+- style blog accordingly
