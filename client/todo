@@ -1,7 +1,14 @@
 Page load transition 
+    hey on page load & then transition between pages
     https://janessagarrow.com/blog/gatsby-framer-motion-page-transitions/
+    https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-page-transitions-with-plugin-transition-link/ 
     https://codepen.io/team/nclud/pen/MwaGGE
     https://codepen.io/soju22/pen/zbjNWy
+
+Link
+- icons
+- about projects circle
+- rotating email link
 
 Responsiveness
 - home
