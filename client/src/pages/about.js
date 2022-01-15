@@ -1,6 +1,5 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import { FaBeer } from "@react-icons/all-files/fa/FaBeer";
 import Seo from "../components/seo"
 
 
@@ -129,7 +128,7 @@ const About = ({location}) => (
             web development. I'm always building
             projects to teach myself new skills. I'm currently
             learning web3, blockchain, and web 
-            animation. <FaBeer /></p>
+            animation.</p>
 
         </div>
 
