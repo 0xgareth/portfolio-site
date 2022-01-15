@@ -113,10 +113,6 @@ const IndexPage = ({location}) => (
 
     {/* content */}
         <div style={{
-          // position: `absolute`,
-          // top: `55%`,
-          // left: `50%`,
-          // transform: `translate(-50%, -50%)`,
           zIndex: `5`,
           display: `flex`,
           justifyContent: `center`,
