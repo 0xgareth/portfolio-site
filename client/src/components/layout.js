@@ -2,6 +2,10 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import Header from "./header"
 import "./layout.css"
+import { IconContext } from "@react-icons/all-files";
+import { FaGithubAlt } from "@react-icons/all-files/fa/FaGithubAlt";
+import { FaEnvelope } from "@react-icons/all-files/fa/FaEnvelope";
+import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter";
 
 const Layout = ({ children, location }) => {
   return (
@@ -9,7 +13,6 @@ const Layout = ({ children, location }) => {
       <Header location={location} />
       
         <main>{children}</main>
-
 
       {/* socials */}
       <div 
@@ -22,14 +25,27 @@ const Layout = ({ children, location }) => {
           alignItems:`center`,
           zIndex:`5`,
           padding:`1rem`,
-          borderStyle: `solid`, 
-          borderColor: `#2F2F2F`,
-          borderWidth: `1px`
         }}
       >
-        <p style={{color:`white`}}>test</p>
-        <p style={{color:`white`}}>test</p>
-        <p style={{color:`white`}}>test</p>
+
+        <IconContext.Provider value={{ color: "white" }}>
+          <div>
+            <FaTwitter className='fa' size={30} />
+          </div>
+        </IconContext.Provider>
+
+        <IconContext.Provider value={{ color: "white" }}>
+          <div>
+            <FaGithubAlt className='fa' size={30} />
+          </div>
+        </IconContext.Provider>
+
+        <IconContext.Provider value={{ color: "white" }}>
+          <div>
+            <FaEnvelope className='fa' size={30} />
+          </div>
+        </IconContext.Provider>
+        
       </div>
 
       {/* footer */}

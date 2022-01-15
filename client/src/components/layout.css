@@ -6,6 +6,8 @@
   --line-active: #38A700;
 }
 
+/* header links styling */
+
 .header-svg {
   width: 76px;
   height: 40px;
@@ -36,6 +38,22 @@
   --stroke-delay: .1s;
   --offset: 180px;
 }
+
+/* icon styling */
+
+.fa{ 
+  text-align:center;
+  line-height:50px;
+  transition: all .3s ease;
+}
+
+.fa:hover {
+  transition: all .3s ease;
+  box-shadow: 5px 5px 5px #000;
+  transform: translateY(-5px);
+}
+
+/* main styling */
 
 html {
   -ms-text-size-adjust: 100%;
