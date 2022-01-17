@@ -8,49 +8,14 @@ const IndexPage = ({location}) => (
 
       <div className='index-wrapper'>
         <div>
-          <h1 style={{
-              color: `white`,
-              fontSize: `8vw`,
-              marginRight: `15rem`,
-              textAlign:`left`,
-              marginBlockEnd:`0em`,
-              marginBlockStart:`0.7em`,
-              lineHeight: `0.2`
-            }}>GARETH</h1>
-          <h1 style={{
-              color: `white`,
-              fontSize: `8vw`,
-              marginRight: `15rem`,
-              textAlign:`left`,
-              marginBlockStart:`0em`,
-              marginBlockEnd:`1.25em`,
-              lineHeight: `0`,
-              WebkitTextStrokeWidth:`1px`,
-              WebkitTextFillColor:`transparent`,
-            }}>GARETH</h1>
-          </div>
+          <h1 className="index-header-left">GARETH</h1>
+          <h1 className="index-header-left-layer2">GARETH</h1>
+        </div>
 
-          <div>
-            <h1 style={{
-                color: `white`,
-                fontSize: `8vw`,
-                textAlign:`right`,
-                marginBlockEnd:`0em`,
-                marginBlockStart:`0.7em`,
-                lineHeight: `0.2`
-              }}>VEALE</h1>
-            <h1 style={{
-                color: `white`,
-                WebkitTextFillColor:`transparent`,
-                fontSize: `8vw`,
-                textAlign:`right`,
-                WebkitTextStrokeWidth:`1px`,
-                marginBlockStart:`0em`,
-                marginBlockEnd:`1.25em`,
-                lineHeight: `0`,
-              }}>VEALE</h1>
-          </div>
-          
+        <div>
+          <h1 className="index-header-right">VEALE</h1>
+          <h1 className="index-header-right-layer2">VEALE</h1>
+        </div>  
       </div>
   </Layout>
 )

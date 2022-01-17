@@ -102,6 +102,44 @@ textPath {
   flex-direction: row;
   height: 90vh;
 }
+.index-header-left {
+  color: white;
+  font-size: 8vw;
+  margin-right: 15rem;
+  text-align:left;
+  margin-block-end:0em;
+  margin-block-start:0.7em;
+  line-height: 0.2
+}
+.index-header-left-layer2 {
+  color: white;
+  font-size: 8vw;
+  margin-right: 15rem;
+  text-align:left;
+  margin-block-start:0em;
+  margin-block-end:1.25em;
+  line-height: 0;
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke-width: 1px;
+}
+.index-header-right {
+  color: white;
+  font-size: 8vw;
+  text-align:right;
+  margin-block-end:0em;
+  margin-block-start:0.7em;
+  line-height: 0.2
+}
+.index-header-right-layer2 {
+  color: white;
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke-width: 1px;
+  font-size: 8vw;
+  text-align:right;
+  margin-block-start:0em;
+  margin-block-end:1.25em;
+  line-height: 0;
+}
 
 /* ABOUT */
 .about-wrapper {
@@ -972,6 +1010,7 @@ pre tt:after {
 
 /* RESPONSIVE STYLING */
 @media only screen and (max-width: 600px) {
+  
 
 }
 
