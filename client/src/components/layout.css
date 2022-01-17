@@ -1,6 +1,8 @@
 @import "../fonts/typography.css";
 
-/* header animatio  */
+/* HEADER */
+
+/* header animation */
 :root {
   --line: #BBC1E1;
   --line-active: #38A700;
@@ -38,6 +40,8 @@
   --stroke-delay: .1s;
   --offset: 180px;
 }
+
+/* FOOTER */
 
 /* icon styling */
 
@@ -88,7 +92,16 @@ textPath {
   to{transform: rotate(0);}
   }
 
-/* main styling */
+/*  */
+
+.index-wrapper {
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 90vh;
+}
 
 html {
   -ms-text-size-adjust: 100%;
@@ -770,8 +783,28 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
+
+/* RESPONSIVE STYLING */
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1500px) {
+
 }
