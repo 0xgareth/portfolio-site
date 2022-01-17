@@ -5288,10 +5288,10 @@
     "yoga-layout-prebuilt" "^1.10.0"
     "yurnalist" "^2.1.0"
 
-"gatsby-core-utils@^3.2.0", "gatsby-core-utils@^3.4.0":
-  "integrity" "sha512-dYQpyo1BLGJzxQOXgGs1Fbj7jzGj5cKAIPYz2hz2l4Aus6skwjjaUlOjZlrWIahNHoLkx3mH0f5y6E8205T/aQ=="
-  "resolved" "https://registry.npmjs.org/gatsby-core-utils/-/gatsby-core-utils-3.4.0.tgz"
-  "version" "3.4.0"
+"gatsby-core-utils@^3.2.0", "gatsby-core-utils@^3.4.0", "gatsby-core-utils@^3.5.1":
+  "integrity" "sha512-qYjPUKULMcrcQyzY3BYKRFwBeI94Cxxm95ByNzYLT80QL0qZL4CapwLgCo1PyZPNd5IWByO8+nmZTcBR6hy0tQ=="
+  "resolved" "https://registry.npmjs.org/gatsby-core-utils/-/gatsby-core-utils-3.5.1.tgz"
+  "version" "3.5.1"
   dependencies:
     "@babel/runtime" "^7.15.4"
     "ci-info" "2.0.0"
@@ -5299,6 +5299,7 @@
     "file-type" "^16.5.3"
     "fs-extra" "^10.0.0"
     "got" "^11.8.3"
+    "lock" "^1.1.0"
     "node-object-hash" "^2.3.10"
     "proper-lockfile" "^4.1.2"
     "tmp" "^0.2.1"
@@ -5375,16 +5376,16 @@
     "objectFitPolyfill" "^2.3.5"
     "prop-types" "^15.7.2"
 
-"gatsby-plugin-manifest@^4.2.0":
-  "integrity" "sha512-mIpGzQp3EquIEEzViddam18pV//rqYDb4mjVcRYYWkK6yFkj/hZrxffR0V0fYsoD2WV0whawvRFtiAJl3HTuxg=="
-  "resolved" "https://registry.npmjs.org/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.2.0.tgz"
-  "version" "4.2.0"
+"gatsby-plugin-manifest@^4.5.1":
+  "integrity" "sha512-ZGisLIgNsUkRBCDfkMWZ8GzbTA4wBVy78fMtHi+jD5vISTmEVA+NXKB1uX7qXow/8MoeUu2cEHa4Afb+7TUO3g=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-manifest/-/gatsby-plugin-manifest-4.5.1.tgz"
+  "version" "4.5.1"
   dependencies:
     "@babel/runtime" "^7.15.4"
-    "gatsby-core-utils" "^3.2.0"
-    "gatsby-plugin-utils" "^2.2.0"
+    "gatsby-core-utils" "^3.5.1"
+    "gatsby-plugin-utils" "^2.5.0"
     "semver" "^7.3.5"
-    "sharp" "^0.29.2"
+    "sharp" "^0.29.3"
 
 "gatsby-plugin-offline@^5.2.0":
   "integrity" "sha512-CAFVrv/V8V5m4DQ8oJVaoorxRcSzdeak0tEKy02geY6ZkPKVFpozf3TqWSoXeFsBWCZhpNOjOM+jLo236Pj4Bw=="
@@ -5460,10 +5461,10 @@
     "@babel/runtime" "^7.15.4"
     "babel-plugin-remove-graphql-queries" "^4.2.0"
 
-"gatsby-plugin-utils@^2.2.0":
-  "integrity" "sha512-VcrvYk6LxsTs7DqzNCT7iYaqEoMuKr2gXO5HFG1sBMwS6XxLWUe47+CuenOvUcKn71C9a/Ir2pove62+0Xphjw=="
-  "resolved" "https://registry.npmjs.org/gatsby-plugin-utils/-/gatsby-plugin-utils-2.2.0.tgz"
-  "version" "2.2.0"
+"gatsby-plugin-utils@^2.2.0", "gatsby-plugin-utils@^2.5.0":
+  "integrity" "sha512-B/JpKTQJQNRVo3b3rRbOgHKV3/i3V5fYLPOGvBU6qHxBtQ9I5YYwXrsLJYX5vl4bEtLtrkiQG9zQyvSSXzJ9Sw=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-utils/-/gatsby-plugin-utils-2.5.0.tgz"
+  "version" "2.5.0"
   dependencies:
     "@babel/runtime" "^7.15.4"
     "joi" "^17.4.2"
@@ -7279,7 +7280,7 @@
   dependencies:
     "p-locate" "^4.1.0"
 
-"lock@^1.0.0":
+"lock@^1.0.0", "lock@^1.1.0":
   "integrity" "sha1-UxV0mdFlOxNspmRRBx/KYVcD+lU="
   "resolved" "https://registry.npmjs.org/lock/-/lock-1.1.0.tgz"
   "version" "1.1.0"
@@ -9757,7 +9758,7 @@
   "resolved" "https://registry.npmjs.org/shallow-compare/-/shallow-compare-1.2.2.tgz"
   "version" "1.2.2"
 
-"sharp@^0.29.2":
+"sharp@^0.29.2", "sharp@^0.29.3":
   "integrity" "sha512-fKWUuOw77E4nhpyzCCJR1ayrttHoFHBT2U/kR/qEMRhvPEcluG4BKj324+SCO1e84+knXHwhJ1HHJGnUt4ElGA=="
   "resolved" "https://registry.npmjs.org/sharp/-/sharp-0.29.3.tgz"
   "version" "0.29.3"
