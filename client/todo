@@ -1,12 +1,3 @@
-mvp
-
-Page load transition 
-    hey on page load & then transition between pages
-    https://janessagarrow.com/blog/gatsby-framer-motion-page-transitions/
-    https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-page-transitions-with-plugin-transition-link/ 
-    https://codepen.io/team/nclud/pen/MwaGGE
-    https://codepen.io/soju22/pen/zbjNWy
-
 Responsiveness
 - home
     font resize and position
@@ -23,10 +14,19 @@ Responsiveness
 
 
 
+
 v2
 
+Page load transition 
+- hey on page load & then transition between pages
+    https://janessagarrow.com/blog/gatsby-framer-motion-page-transitions/
+    https://www.gatsbyjs.com/docs/how-to/adding-common-features/adding-page-transitions-with-plugin-transition-link/ 
+    https://codepen.io/team/nclud/pen/MwaGGE
+    https://codepen.io/soju22/pen/zbjNWy
+
 home
-- moving shapes
+- moving shapes / 3d animation
+
 blog
 - import blog functionality
 - link to blog on home page
