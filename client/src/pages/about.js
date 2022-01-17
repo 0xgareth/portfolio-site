@@ -7,12 +7,12 @@ const About = ({location}) => (
   <Layout location={location}>
     <Seo title="About" />
 
-    <div className='about-wrapper'>   
+    <div className='about-wrapper'>
 
       {/* projects button */}
       <a style={{ textDecoration:`None` }} href="https://github.com/gareth-was-here" target="_blank" rel="noopener noreferrer">  
-        <div className="circle">
-          <p>PROJECTS<br></br>ON GITHUB</p>
+        <div className="projects-circle">
+          <p className="projects-circle-text">PROJECTS<br></br>ON GITHUB</p>
         </div>
       </a>
 

@@ -9,7 +9,7 @@ const Header = ({ location }) => {
     return (
       <nav className="nav-bar">
         <div className="nav-wrapper">
-          <p>
+          <p style={{margin:`0`}}>
             <Link to="/about/" className='header-link'>
               about
               <svg className='header-svg' viewBox="0 0 70 36">
@@ -17,7 +17,7 @@ const Header = ({ location }) => {
               </svg>
             </Link>
           </p>
-          <p>
+          <p style={{margin:`0`}}>
             <Link to="/contact/" className='header-link'>
               contact
               <svg className='header-svg' viewBox="0 0 70 36">
@@ -29,7 +29,7 @@ const Header = ({ location }) => {
 
         <div style={{ display: `flex`, justifyContent:`center` }}>
           {path === '' ? null :
-            <p>
+            <p style={{margin:`0`}}>
               <Link to="/" className='header-link'>
                 HOME
                 <svg className='header-svg' viewBox="0 0 70 36">

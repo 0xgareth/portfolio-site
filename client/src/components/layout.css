@@ -941,7 +941,7 @@ textPath {
   font-style:regular;
   font-weight:500
 }
-.circle {
+.projects-circle {
   background-color:#38A700;
   width: 13rem;
   height: 13rem;
@@ -955,7 +955,7 @@ textPath {
   align-items:center;
   text-align:center
 }
-.circle-text {
+.projects-circle-text {
   color:white; 
   font-family:Montserrat-Medium;
   position:absolute; 
@@ -1025,9 +1025,7 @@ textPath {
 
 
 /* RESPONSIVE STYLING */
-
-/* mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
   /* INDEX */
   .index-wrapper {
     flex-direction: column;
@@ -1073,6 +1071,177 @@ textPath {
     padding:0;
   } 
   /* ABOUT */
+  .about-bottom-div {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .about-header-text-top {
+    font-size: 13vw;
+    padding: 5rem 0 0 1.5rem;
+  }
+  .about-header-text-bottom {
+    font-size: 13vw;
+    padding-left: 1.5rem
+  }
+  .about-text-header1 {
+    padding: 3.5rem 0 0 0rem;
+    font-size:5vw;
+  }
+  .about-text-header2 {
+    padding: 2rem 0 0 0rem;
+    font-size:5vw;
+  }
+  .about-body-text-1 {
+    padding: 3rem 0 0 0rem;
+    margin-top:1rem;
+    font-size: 4.5vw;
+  }
+  .about-body-text-2 {
+    padding: 3rem 0 0 0rem;
+    font-size: 4.5vw;
+  }
+  .about-bottom-div-right {
+    margin-top: 2rem;
+    width:100%;
+    padding-left:0rem;
+  }
+  .about-bottom-div-left {
+    width:100%
+  }
+  .skill-circle {
+    margin-top: 0rem;
+    margin-right: 0;
+    margin-right: 10rem;
+    width: 10rem;
+    height: 10rem;
+  }
+  .skill-circle-text {
+    font-size:2.75vw;
+  }
+  .projects-circle {
+    width: 7.5rem;
+    height: 7.5rem;
+    left: 60%;
+    top:76%;
+  }
+  .projects-circle-text {
+    margin:0; 
+    font-size:2.4vw;
+    transform: rotate(10deg);
+    margin-left: 0;
+  }
+  /* CONTACT */
+  /* 404 */
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  /* INDEX */
+  .index-wrapper {
+    flex-direction: column;
+  }
+  .index-header-left {
+    font-size: 15vw;
+    margin-right: 0;
+    text-align:center;
+    margin-block-start:0.7em;
+  }
+  .index-header-left-layer2 {
+    font-size: 15vw;
+    margin-right: 0;
+    text-align:center;
+    margin-block-end:1.25em;
+  }
+  .index-header-right {
+    font-size: 15vw;
+    text-align:center;
+    margin-block-start:2em;
+  }
+  .index-header-right-layer2 {
+    font-size: 15vw;
+    text-align:center;
+    margin-block-end:1.25em;
+  }
+  /* FOOTER */
+  .animated-circle-font{
+    font-size: 3.5vw;
+  }
+  .animated-circle-text {
+    width: 24vw;
+    height: 24vw;
+  }
+  /* HEADER */
+  .header-link {
+    font-size: 3vw;
+  }
+  .nav-bar {
+    padding: 1.5rem ;
+  }
+  .nav-wrapper {
+    padding:0;
+  } 
+  /* ABOUT */
+  .about-bottom-div {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .about-header-text-top {
+    font-size: 13vw;
+    padding: 5rem 0 0 1.5rem;
+  }
+  .about-header-text-bottom {
+    font-size: 13vw;
+    padding-left: 1.5rem
+  }
+  .about-text-header1 {
+    padding: 3.5rem 0 0 0rem;
+    font-size:5vw;
+  }
+  .about-text-header2 {
+    padding: 2rem 0 0 0rem;
+    font-size:5vw;
+  }
+  .about-body-text-1 {
+    padding: 3rem 0 0 0rem;
+    margin-top:1rem;
+    font-size: 4.5vw;
+  }
+  .about-body-text-2 {
+    padding: 3rem 0 0 0rem;
+    font-size: 4.5vw;
+  }
+  .about-bottom-div-right {
+    margin-top: 2rem;
+    width:100%;
+    padding-left:0rem;
+  }
+  .about-bottom-div-left {
+    width:100%
+  }
+  .skill-circle {
+    margin-top: 0rem;
+    margin-right: 0;
+    margin-right: 8rem;
+    width: 11rem;
+    height: 11rem;
+  }
+  .skill-circle-text {
+    font-size:2.8vw;
+  }
+  .projects-circle {
+    width: 7.5rem;
+    height: 7.5rem;
+    left: 60%;
+    top:74%;
+  }
+  .projects-circle-text {
+    margin:0; 
+    font-size:2.4vw;
+    transform: rotate(10deg);
+    margin-left: 0;
+  }
   /* CONTACT */
   /* 404 */
 
@@ -1123,6 +1292,66 @@ textPath {
     padding:0;
   } 
   /* ABOUT */
+  .about-bottom-div {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  }
+  .about-header-text-top {
+    font-size: 13vw;
+    padding: 5rem 0 0 2rem;
+  }
+  .about-header-text-bottom {
+    font-size: 13vw;
+    padding-left: 2rem
+  }
+  .about-text-header1 {
+    padding: 5rem 0 0 .5rem;
+    font-size:3.5vw;
+  }
+  .about-text-header2 {
+    padding: 2rem 0 0 .5rem;
+    font-size:3.5vw;
+  }
+  .about-body-text-1 {
+    padding: 3rem 0 0 .5rem;
+    margin-top:1rem;
+    font-size: 3vw;
+  }
+  .about-body-text-2 {
+    padding: 3rem 0 0 .5rem;
+    font-size: 3vw;
+  }
+  .about-bottom-div-right {
+    margin-top: 2rem;
+    width:100%;
+    padding-left:0rem;
+  }
+  .about-bottom-div-left {
+    width:100%
+  }
+  .skill-circle {
+    margin-top: 2rem;
+    margin-right: 0;
+    margin-right: 12rem;
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+  .skill-circle-text {
+    font-size:2.3vw;
+  }
+  .projects-circle {
+    width: 7.5rem;
+    height: 7.5rem;
+    left: 65%;
+    top:72%;
+  }
+  .projects-circle-text {
+    margin:0; 
+    font-size:2.4vw;
+    transform: rotate(10deg);
+    margin-left: 0;
+  }
   /* CONTACT */
   /* 404 */
 }
@@ -1165,12 +1394,71 @@ textPath {
     font-size: 2vw;
   }
   .nav-bar {
-    padding: 2rem ;
+    padding: 2rem;
   }
   .nav-wrapper {
     padding:0;
   } 
   /* ABOUT */
+  .about-bottom-div {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+  .about-header-text-top {
+    font-size: 12vw;
+    padding: 5rem 0 0 2rem;
+  }
+  .about-header-text-bottom {
+    font-size: 12vw;
+    padding-left: 2rem
+  }
+  .about-text-header1 {
+    padding: 5rem 0 0 .5rem;
+    font-size:3vw;
+  }
+  .about-text-header2 {
+    padding: 2rem 0 0 .5rem;
+    font-size:3vw;
+  }
+  .about-body-text-1 {
+    padding: 3rem 0 0 .5rem;
+    margin-top:1rem;
+    font-size: 2.5vw;
+  }
+  .about-body-text-2 {
+    padding: 3rem 0 0 .5rem;
+    font-size: 2.5vw;
+  }
+  .about-bottom-div-right {
+    margin-top: 7rem;
+    width:40%;
+    padding-left:0rem;
+  }
+  .about-bottom-div-left {
+    width:60%
+  }
+  .skill-circle {
+    margin-top: 8rem;
+    margin-right: 0;
+    width: 13rem;
+    height: 13rem;
+  }
+  .skill-circle-text {
+    font-size:1.9vw;
+  }
+  .projects-circle {
+    width: 8.5rem;
+    height: 8.5rem;
+    left: 65%;
+    top:43%;
+  }
+  .projects-circle-text {
+    margin:0; 
+    font-size:2.2vw;
+    transform: rotate(10deg);
+    margin-left: 0;
+  }
   /* CONTACT */
   /* 404 */
 }
@@ -1214,6 +1502,60 @@ textPath {
     padding:0;
   } 
   /* ABOUT */
+  .about-header-text-top {
+    font-size: 10vw;
+    padding: 5rem 0 0 4rem;
+  }
+  .about-header-text-bottom {
+    font-size: 10vw;
+    padding-left: 4rem
+  }
+  .about-text-header1 {
+    padding: 5rem 0 0 3rem;
+    font-size:2.4vw;
+  }
+  .about-text-header2 {
+    padding: 2rem 0 0 3rem;
+    font-size:2.4vw;
+  }
+  .about-body-text-1 {
+    padding: 3rem 0 0 3rem;
+    margin-top:1rem;
+    font-size: 1.9vw;
+  }
+  .about-body-text-2 {
+    padding: 3rem 0 0 3rem;
+    font-size: 1.9vw;
+  }
+  .about-bottom-div-right {
+    margin-top: 7rem;
+    width:40%;
+    padding-left:0rem;
+  }
+  .about-bottom-div-left {
+    width:60%
+  }
+  .skill-circle {
+    margin-top: 2rem;
+    margin-right: 0;
+    width: 16rem;
+    height: 16rem;
+  }
+  .skill-circle-text {
+    font-size:2vw;
+  }
+  .projects-circle {
+    width: 10rem;
+    height: 10rem;
+    left: 77%;
+    top:22%;
+  }
+  .projects-circle-text {
+    margin:0; 
+    font-size:1.8vw;
+    transform: rotate(10deg);
+    margin-left: 0;
+  }
   /* CONTACT */
   /* 404 */
 }
@@ -1249,6 +1591,60 @@ textPath {
     padding:0;
   } 
   /* ABOUT */
+  .about-header-text-top {
+    font-size: 10vw;
+    padding: 5rem 0 0 4rem;
+  }
+  .about-header-text-bottom {
+    font-size: 10vw;
+    padding-left: 4rem
+  }
+  .about-text-header1 {
+    padding: 5rem 0 0 3rem;
+    font-size:2.4vw;
+  }
+  .about-text-header2 {
+    padding: 2rem 0 0 3rem;
+    font-size:2.4vw;
+  }
+  .about-body-text-1 {
+    padding: 3rem 0 0 3rem;
+    margin-top:1rem;
+    font-size: 1.7vw;
+  }
+  .about-body-text-2 {
+    padding: 3rem 0 0 3rem;
+    font-size: 1.7vw;
+  }
+  .about-bottom-div-right {
+    margin-top: 7rem;
+    width:40%;
+    padding-left:0rem;
+  }
+  .about-bottom-div-left {
+    width:60%
+  }
+  .skill-circle {
+    margin-top: 0rem;
+    margin-right: 0;
+    width: 16rem;
+    height: 16rem;
+  }
+  .skill-circle-text {
+    font-size:1.5vw;
+  }
+  .projects-circle {
+    width: 10rem;
+    height: 10rem;
+    left: 77%;
+    top:24%;
+  }
+  .projects-circle-text {
+    margin:0; 
+    font-size:1.5vw;
+    transform: rotate(10deg);
+    margin-left: 0;
+  }
   /* CONTACT */
   /* 404 */
 
@@ -1285,6 +1681,60 @@ textPath {
     padding:0;
   } 
   /* ABOUT */
+  .about-header-text-top {
+    font-size: 9vw;
+    padding: 4rem 0 0 4rem;
+  }
+  .about-header-text-bottom {
+    font-size: 9vw;
+    padding-left: 4rem
+  }
+  .about-text-header1 {
+    padding: 5rem 0 0 3rem;
+    font-size:2vw;
+  }
+  .about-text-header2 {
+    padding: 2rem 0 0 3rem;
+    font-size:1.5vw;
+  }
+  .about-body-text-1 {
+    padding: 3rem 0 0 3rem;
+    margin-top:1rem;
+    font-size: 1.3vw;
+  }
+  .about-body-text-2 {
+    padding: 3rem 0 0 3rem;
+    font-size: 1.3vw;
+  }
+  .about-bottom-div-right {
+    margin-top: 7rem;
+    width:50%;
+    padding-left:0rem;
+  }
+  .about-bottom-div-left {
+    width:50%
+  }
+  .skill-circle {
+    margin-top: 0rem;
+    margin-right: 0;
+    width: 19.5rem;
+    height: 19.5rem;
+  }
+  .skill-circle-text {
+    font-size:1.5vw;
+  }
+  .projects-circle {
+    width: 11rem;
+    height: 11rem;
+    left: 75%;
+    top:22%;
+  }
+  .projects-circle-text {
+    margin:0; 
+    font-size:1.2vw;
+    transform: rotate(10deg);
+    margin-left: 0;
+  }
   /* CONTACT */
   /* 404 */
 }
@@ -1319,7 +1769,7 @@ textPath {
   }
   /* HEADER */
   .header-link {
-    font-size: 1vw;
+    font-size: .8vw;
   }
   .nav-bar {
     padding: 2rem;
@@ -1328,6 +1778,60 @@ textPath {
     padding:0;
   } 
   /* ABOUT */
+  .about-header-text-top {
+    font-size: 7vw;
+    padding: 2rem 0 0 8rem;
+  }
+  .about-header-text-bottom {
+    font-size: 7vw;
+    padding-left: 8rem
+  }
+  .about-text-header1 {
+    padding: 5rem 0 0 6.5rem;
+    font-size:1.5vw;
+  }
+  .about-text-header2 {
+    padding: 2rem 0 0 6.5rem;
+    font-size:0.9vw;
+  }
+  .about-body-text-1 {
+    padding: 3rem 0 0 6.5rem;
+    margin-top:1rem;
+    font-size: 1.2vw;
+  }
+  .about-body-text-2 {
+    padding: 3rem 0 0 6.5rem;
+    font-size: 1.2vw;
+  }
+  .about-bottom-div-right {
+    margin-top: 3.5rem;
+    width:60%;
+    padding-left:0rem;
+  }
+  .about-bottom-div-left {
+    width:50%
+  }
+  .skill-circle {
+    margin-top: 2.5rem;
+    margin-right: 0;
+    width: 20rem;
+    height: 20rem;
+  }
+  .skill-circle-text {
+    font-size:1.15vw;
+  }
+  .projects-circle {
+    width: 13rem;
+    height: 13rem;
+    left: 65%;
+    top:20%;
+  }
+  .projects-circle-text {
+    margin:0; 
+    font-size:1.2vw;
+    transform: rotate(10deg);
+    margin: 0;
+  }
   /* CONTACT */
   /* 404 */
 }
