@@ -689,9 +689,7 @@ pre tt:after {
   --line: #BBC1E1;
   --line-active: #38A700;
 }
-
 /* header links styling */
-
 .header-svg {
   width: 76px;
   height: 40px;
@@ -707,7 +705,6 @@ pre tt:after {
   stroke-dashoffset: 361px;
   transition: stroke .25s ease var(--stroke-delay, 0s), stroke-dasharray .35s;
 }
-
 .header-link {
   display: inline-block;
   position: relative;
@@ -715,12 +712,30 @@ pre tt:after {
   color: inherit;
   margin: 0 var(--spacing, 0px);
   transition: margin .25s;
+  text-decoration: none;
+  font-size: .8vw;
+  font-family:Montserrat-Light;
+  color:white
 }
 .header-link:hover {
   --spacing: 4px;
   --stroke: var(--line-active);
   --stroke-delay: .1s;
   --offset: 180px;
+}
+.nav-bar {
+  background: #030303;
+  width: 100%;
+  padding: 1.25rem 2rem 1.25rem 2rem;
+  overflow: hidden;
+  z-index: 1;
+}
+.nav-wrapper {
+  margin: 0;
+  width: 100%;
+  padding: 1.45rem 1.0875rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* FOOTER */
@@ -744,19 +759,16 @@ pre tt:after {
   z-index:5;
 }
 /* icon styling */
-
 .fa{ 
   text-align:center;
   line-height:50px;
   transition: all .3s ease;
 }
-
 .fa:hover {
   transition: all .3s ease;
   box-shadow: 5px 5px 5px #000;
   transform: translateY(-5px);
 }
-
 /* rotating cicle */
 .animated-circle-text {
   width: 10vw;
@@ -777,19 +789,17 @@ pre tt:after {
 .animated-circle-font{
   font-family: Cabin;
   font-size: 1vw;
-  fill: white  ;
+  fill: white ;
 }
 textPath {
   letter-spacing: 4px
 }
-    
 @keyframes rotate {
   from{transform: rotate(360deg);}
   to{transform: rotate(0);}
-  }
+}
 
 /* INDEX */
-
 .index-wrapper {
   z-index: 5;
   display: flex;
@@ -845,13 +855,11 @@ textPath {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
-
 .about-top-div {
   display: flex;
   flex-direction:column;
   justify-content: center;
 }
-
 .about-header-text-top {
   color: white;
   font-size: 7vw;
@@ -859,7 +867,6 @@ textPath {
   margin-block-start:0em;
   padding: 2rem 0 0 8rem;
 }
-
 .about-header-text-bottom {
   color: white;
   font-size: 7vw;
@@ -867,19 +874,16 @@ textPath {
   margin-block-start:0em;
   padding-left: 8rem
 }
-
 .about-bottom-div {
   display: flex;
   flex-direction:row;
   justify-content: space-between;
 }
-
 .about-bottom-div-left {
   display: flex;
   flex-direction:column;
   width:50%
 }
-
 .about-text-header1 {
   font-family:Montserrat-Medium;
   color: white;
@@ -889,7 +893,6 @@ textPath {
   font-style:regular;
   font-weight:600
 }
-
 .about-text-header2 {
   font-family:Montserrat-LightItalic;
   color: white;
@@ -898,18 +901,15 @@ textPath {
   margin-top: 0;
   line-height:0;
 }
-
 .about-body-text-1 {
   color: white;
   padding: 3rem 0 0 6.5rem;
   margin-top:1rem
 }
-
 .about-body-text-2 {
   color: white;
   padding: 3rem 0 0 6.5rem
 }
-
 .about-bottom-div-right {
   display: flex;
   flex-direction:row;
@@ -918,7 +918,6 @@ textPath {
   padding-left:0rem;
   justify-content:center;
 }
-
 .skill-circle {
   margin-top: 2.5rem;
   margin-right: 0;
@@ -933,7 +932,6 @@ textPath {
   align-items:center;
   text-align:center
 }
-
 .skill-circle-text {
   font-family:Montserrat-Light;
   color:white; 
@@ -943,7 +941,6 @@ textPath {
   font-style:regular;
   font-weight:500
 }
-
 .circle {
   background-color:#38A700;
   width: 13rem;
@@ -958,7 +955,6 @@ textPath {
   align-items:center;
   text-align:center
 }
-
 .circle-text {
   color:white; 
   font-family:Montserrat-Medium;
@@ -1023,33 +1019,108 @@ textPath {
   width:45vw
 }
 
+
+
+
+
+
 /* RESPONSIVE STYLING */
 
 /* mobile */
 @media only screen and (max-width: 600px) {
   /* INDEX */
+  /* FOOTER */
+  .animated-circle-font{
+    font-size: 4vw;
+  }
+  .animated-circle-text {
+    width: 18vw;
+    height: 19vw;
+  }
+  /* HEADER */
+  .header-svg {
+    width: 4vw;
+    height: 4vw;
+    left: 50%;
+    transform: translate(-50%, 7px) translateZ(0);
+    stroke-width: 2px;
+    stroke-dasharray: var(--offset, 69px) 278px;
+    stroke-dashoffset: 361px;
+    transition: stroke .25s ease var(--stroke-delay, 0s), stroke-dasharray .35s;
+  }
+  .header-link:hover {
+    --spacing: 4px;
+    --stroke-delay: .1s;
+    --offset: 180px;
+  }
+  /* ABOUT */
+  /* CONTACT */
+  /* 404 */
 
 }
 
 /* large phones / portrait tablets */
 @media only screen and (min-width: 600px) {
-
+  /* INDEX */
+  /* FOOTER */
+  .animated-circle-font{
+    font-size: 3vw;
+  }
+  .animated-circle-text {
+    width: 16vw;
+    height: 17vw;
+  }
+  /* HEADER */
+  /* ABOUT */
+  /* CONTACT */
+  /* 404 */
 }
 
 /* landscape tablets */
 @media only screen and (min-width: 768px) {
-
+  /* INDEX */
+  /* FOOTER */
+  .animated-circle-font{
+    font-size: 2.75vw;
+  }
+  .animated-circle-text {
+    width: 15vw;
+    height: 16vw;
+  }
+  /* HEADER */
+  /* ABOUT */
+  /* CONTACT */
+  /* 404 */
 }
 
 /* laptops/desktops */
 @media only screen and (min-width: 992px) {
-
+  /* INDEX */
+  /* FOOTER */
+  .animated-circle-font{
+    font-size: 2vw;
+  }
+  .animated-circle-text {
+    width: 14vw;
+    height: 14vw;
+  }
+  /* HEADER */
+  /* ABOUT */
+  /* CONTACT */
+  /* 404 */
 }
 
 /* large laptops */
 @media only screen and (min-width: 1200px) {
   /* INDEX */
   /* FOOTER */
+  .animated-circle-font{
+    font-size: 1.5vw;
+  }
+  .animated-circle-text {
+    width: 12vw;
+    height: 12vw;
+  }
   /* HEADER */
   /* ABOUT */
   /* CONTACT */
@@ -1059,5 +1130,17 @@ textPath {
 
 /* higher res screens */
 @media only screen and (min-width: 1500px) {
-
+  /* INDEX */
+  /* FOOTER */
+  .animated-circle-font{
+    font-size: 1vw;
+  }
+  .animated-circle-text {
+    width: 10vw;
+    height: 10vw;
+  }
+  /* HEADER */
+  /* ABOUT */
+  /* CONTACT */
+  /* 404 */
 }
