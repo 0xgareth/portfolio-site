@@ -1019,122 +1019,6 @@ textPath {
   width:45vw
 }
 
-
-
-
-
-
-/* RESPONSIVE STYLING */
-@media only screen and (max-width: 400px) {
-  /* INDEX */
-  .index-wrapper {
-    flex-direction: column;
-  }
-  .index-header-left {
-    font-size: 15vw;
-    margin-right: 0;
-    text-align:center;
-    margin-block-start:0.7em;
-  }
-  .index-header-left-layer2 {
-    font-size: 15vw;
-    margin-right: 0;
-    text-align:center;
-    margin-block-end:1.25em;
-  }
-  .index-header-right {
-    font-size: 15vw;
-    text-align:center;
-    margin-block-start:2em;
-  }
-  .index-header-right-layer2 {
-    font-size: 15vw;
-    text-align:center;
-    margin-block-end:1.25em;
-  }
-  /* FOOTER */
-  .animated-circle-font{
-    font-size: 4vw;
-  }
-  .animated-circle-text {
-    width: 20vw;
-    height: 21vw;
-  }
-  /* HEADER */
-  .header-link {
-    font-size: 3vw;
-  }
-  .nav-bar {
-    padding: 1.5rem ;
-  }
-  .nav-wrapper {
-    padding:0;
-  } 
-  /* ABOUT */
-  .about-bottom-div {
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-  }
-  .about-header-text-top {
-    font-size: 13vw;
-    padding: 5rem 0 0 1.5rem;
-  }
-  .about-header-text-bottom {
-    font-size: 13vw;
-    padding-left: 1.5rem
-  }
-  .about-text-header1 {
-    padding: 3.5rem 0 0 0rem;
-    font-size:5vw;
-  }
-  .about-text-header2 {
-    padding: 2rem 0 0 0rem;
-    font-size:5vw;
-  }
-  .about-body-text-1 {
-    padding: 3rem 0 0 0rem;
-    margin-top:1rem;
-    font-size: 4.5vw;
-  }
-  .about-body-text-2 {
-    padding: 3rem 0 0 0rem;
-    font-size: 4.5vw;
-  }
-  .about-bottom-div-right {
-    margin-top: 2rem;
-    width:100%;
-    padding-left:0rem;
-  }
-  .about-bottom-div-left {
-    width:100%
-  }
-  .skill-circle {
-    margin-top: 0rem;
-    margin-right: 0;
-    margin-right: 10rem;
-    width: 10rem;
-    height: 10rem;
-  }
-  .skill-circle-text {
-    font-size:2.75vw;
-  }
-  .projects-circle {
-    width: 7.5rem;
-    height: 7.5rem;
-    left: 60%;
-    top:76%;
-  }
-  .projects-circle-text {
-    margin:0; 
-    font-size:2.4vw;
-    transform: rotate(10deg);
-    margin-left: 0;
-  }
-  /* CONTACT */
-  /* 404 */
-}
-
 /* mobile */
 @media only screen and (max-width: 600px) {
   /* INDEX */
@@ -1145,7 +1029,7 @@ textPath {
     font-size: 15vw;
     margin-right: 0;
     text-align:center;
-    margin-block-start:0.7em;
+    margin-block-start:0em;
   }
   .index-header-left-layer2 {
     font-size: 15vw;
@@ -1164,16 +1048,22 @@ textPath {
     margin-block-end:1.25em;
   }
   /* FOOTER */
+  .icons-wrapper {
+    padding:1rem;
+  }
+  .footer-circle-wrapper {
+    padding:1rem;
+  }
   .animated-circle-font{
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   .animated-circle-text {
-    width: 24vw;
-    height: 24vw;
+    width: 23vw;
+    height: 23vw;
   }
   /* HEADER */
   .header-link {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   .nav-bar {
     padding: 1.5rem ;
@@ -1189,14 +1079,14 @@ textPath {
   }
   .about-header-text-top {
     font-size: 13vw;
-    padding: 5rem 0 0 1.5rem;
+    padding: 0rem 0 0 1.5rem;
   }
   .about-header-text-bottom {
     font-size: 13vw;
     padding-left: 1.5rem
   }
   .about-text-header1 {
-    padding: 3.5rem 0 0 0rem;
+    padding: 2rem 0 0 0rem;
     font-size:5vw;
   }
   .about-text-header2 {
@@ -1204,16 +1094,16 @@ textPath {
     font-size:5vw;
   }
   .about-body-text-1 {
-    padding: 3rem 0 0 0rem;
+    padding: 1rem 0 0 0rem;
     margin-top:1rem;
     font-size: 4.5vw;
   }
   .about-body-text-2 {
-    padding: 3rem 0 0 0rem;
+    padding: 1rem 0 0 0rem;
     font-size: 4.5vw;
   }
   .about-bottom-div-right {
-    margin-top: 2rem;
+    margin-top: 1rem;
     width:100%;
     padding-left:0rem;
   }
@@ -1223,14 +1113,15 @@ textPath {
   .skill-circle {
     margin-top: 0rem;
     margin-right: 0;
-    margin-right: 8rem;
-    width: 11rem;
-    height: 11rem;
+    margin-right: 0rem;
+    width: 8rem;
+    height: 8rem;
   }
   .skill-circle-text {
     font-size:2.8vw;
   }
   .projects-circle {
+    display: none;
     width: 7.5rem;
     height: 7.5rem;
     left: 60%;
@@ -1414,7 +1305,7 @@ textPath {
     padding-left: 2rem
   }
   .about-text-header1 {
-    padding: 5rem 0 0 .5rem;
+    padding: 3rem 0 0 .5rem;
     font-size:3vw;
   }
   .about-text-header2 {
@@ -1439,7 +1330,7 @@ textPath {
     width:60%
   }
   .skill-circle {
-    margin-top: 8rem;
+    margin-top: 3rem;
     margin-right: 0;
     width: 13rem;
     height: 13rem;
@@ -1448,6 +1339,7 @@ textPath {
     font-size:1.9vw;
   }
   .projects-circle {
+    display:none;
     width: 8.5rem;
     height: 8.5rem;
     left: 65%;
@@ -1634,6 +1526,7 @@ textPath {
     font-size:1.5vw;
   }
   .projects-circle {
+    display:flex;
     width: 10rem;
     height: 10rem;
     left: 77%;
