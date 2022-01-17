@@ -5,25 +5,10 @@ import { Link } from "gatsby"
 const NotFoundPage = () => (
   <div>
     <Seo title="404: Not found" />
-    <div
-      style={{
-        display:`flex`,
-        justifyContent:`center`,
-        alignItems:`center`,
-        flexDirection:`column`,
-        marginTop:`25%`,
-        zIndex:`5`,
-      }}
-    >
-      <h1 
-        style={{
-        color:`white`
-      }}>"PAGE NOT FOUND"</h1>
-      <p
-      style={{
-        color:`white`
-      }}>You just hit a page that doesn&#39;t exist...</p>
-      <Link to="/" style={{textDecoration: `none`,fontSize: `1vw`,fontFamily:`Montserrat`, marginTop:`2rem`}}>← GO HOME</Link>
+    <div className="not-found-wrapper">
+      <h1 className="not-found-header">"PAGE NOT FOUND"</h1>
+      <p className="not-found-text">You just hit a page that doesn&#39;t exist...</p>
+      <Link to="/" className="not-found-link">← GO HOME</Link>
     </div> 
   </div>
 )

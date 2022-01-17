@@ -39,8 +39,8 @@ const Contact = ({location}) => {
 
         {/* right column */}
         <div className="contact-right-col">
-          <p style={{ fontFamily:'Montserrat-Light', color:`white`, fontSize: `2.5vw` }}>Get in touch for collaborations</p>
-          <a href="mailto:gareth@garethveale.dev" style={{textDecoration:`underline`}}><span style={{ fontFamily:'Montserrat-LightItalic', marginLeft: `2rem`, color:`white`, fontSize: `2.5vw`, marginTop: `1em` }}>gareth@garethveale.dev →</span></a>        
+          <p className="contact-text">Get in touch for collaborations</p>
+          <a href="mailto:gareth@garethveale.dev" style={{textDecoration:`underline`}}><span className="contact-link">gareth@garethveale.dev →</span></a>        
         </div>
 
       </div>
