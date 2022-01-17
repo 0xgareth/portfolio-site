@@ -234,6 +234,60 @@ textPath {
   transform: rotate(10deg);
 }
 
+/* CONTACT */
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height:80vh;
+  width:100%;
+}
+.contact-left-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 5em;
+}
+.contact-right-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:flex-start;
+  padding-right: 7em;
+}
+.contact-header1 {
+  color:white; 
+  font-size: 7vw; 
+  line-height:0; 
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke-width: 1px;
+  width:45vw
+}
+.contact-header2 {
+  color:white; 
+  font-size: 7vw; 
+  line-height:0;
+  margin-block-end:0.15em;
+  width:45vw
+}
+.contact-header2-layer2 {
+  color:white; 
+  font-size: 7vw; 
+  line-height:0;
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke-width: 1px;
+  margin-block-start:0em;
+}
+.contact-header3 {
+  color:white; 
+  font-size: 7vw; 
+  line-height:0; 
+  -webkit-text-fill-color:transparent;
+  -webkit-text-stroke-width: 1px;
+  width:45vw
+}
 
 html {
   -ms-text-size-adjust: 100%;

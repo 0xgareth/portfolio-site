@@ -22,84 +22,25 @@ const Contact = ({location}) => {
     <Layout location={location}>
       <Seo title="Contact" />
       
-      <div 
-        style={{
-          display: `flex`,
-          justifyContent: `space-between`,
-          flexDirection: `row`,
-          height:`80vh`,
-          width:`100%`,
-      }}>
+      <div className="contact-wrapper">
 
         {/* left column */}
-        <div style={{
-          display: `flex`,
-          justifyContent: `center`,
-          alignItems: `center`,
-          flexDirection: `column`,
-          marginTop: ``,
-          paddingLeft: `5em`,
-        }}>
-          {/* 1 */}
-          <h1 style={{ 
-            color:`white`, 
-            fontSize: `7vw`, 
-            lineHeight:`0`, 
-            WebkitTextFillColor:`transparent`, 
-            WebkitTextStrokeWidth:`1px`,
-            width:`45vw`
-          }}>
-              SAY HELLO
-          </h1>
+        <div className="contact-left-col">
 
-          {/* 2 */}
+          <h1 className="contact-header1">SAY HELLO</h1>
+
           <div>
-            <h1 style={{ 
-              color:`white`, 
-              fontSize: `7vw`, 
-              lineHeight:`0`,
-              marginBlockEnd:`0.15em`,
-              width:`45vw`
-              }}>
-                SAY {words[currentItemIndex]}
-            </h1>
-            <h1 style={{ 
-              color:`white`, 
-              fontSize: `7vw`, 
-              lineHeight:`0`,
-              WebkitTextFillColor:`transparent`, 
-              WebkitTextStrokeWidth:`1px`,
-              marginBlockStart:`0em`,
-            }}>
-              SAY {words[currentItemIndex]}
-            </h1>
+            <h1 className="contact-header2">SAY {words[currentItemIndex]}</h1>
+            <h1 className="contact-header2-layer2">SAY {words[currentItemIndex]}</h1>
           </div>
 
-          {/* 3 */}
-          <h1 style={{ 
-            color:`white`, 
-            fontSize: `7vw`, 
-            lineHeight:`0`, 
-            WebkitTextFillColor:`transparent`, 
-            WebkitTextStrokeWidth:`1px`,
-            width:`45vw`
-          }}>
-            SAY HELLO
-          </h1>
+          <h1 className="contact-header3">SAY HELLO</h1>
         </div>
 
         {/* right column */}
-        <div style={{
-          display: `flex`,
-          justifyContent: `center`,
-          flexDirection: `column`,
-          alignItems:`flex-start`,
-          marginTop: ``,
-          paddingRight: `7em`,
-        }}>
+        <div className="contact-right-col">
           <p style={{ fontFamily:'Montserrat-Light', color:`white`, fontSize: `2.5vw` }}>Get in touch for collaborations</p>
-          <a href="mailto:gareth@garethveale.dev" style={{textDecoration:`underline`}}><span style={{ fontFamily:'Montserrat-LightItalic', marginLeft: `2rem`, color:`white`, fontSize: `2.5vw`, marginTop: `1em` }}>gareth@garethveale.dev →</span></a>
-        
+          <a href="mailto:gareth@garethveale.dev" style={{textDecoration:`underline`}}><span style={{ fontFamily:'Montserrat-LightItalic', marginLeft: `2rem`, color:`white`, fontSize: `2.5vw`, marginTop: `1em` }}>gareth@garethveale.dev →</span></a>        
         </div>
 
       </div>
