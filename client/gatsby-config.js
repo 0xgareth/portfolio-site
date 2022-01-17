@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gareth Veale`,
+    title: `GARETH`,
     description: `Portfolio website of Gareth Veale.`,
     author: `Gareth Veale`,
     siteUrl: `https://garethveale.dev/`,
   },
+  pathPrefix: "/",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
