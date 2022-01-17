@@ -1009,27 +1009,34 @@ pre tt:after {
 }
 
 /* RESPONSIVE STYLING */
-@media only screen and (max-width: 600px) {
-  
 
+/* mobile */
+@media only screen and (max-width: 600px) {
+  /* index */
+  
 }
 
+/* large phones / portrait tablets */
 @media only screen and (min-width: 600px) {
 
 }
 
+/* landscape tablets */
 @media only screen and (min-width: 768px) {
 
 }
 
+/* laptops/desktops */
 @media only screen and (min-width: 992px) {
 
 }
 
+/* large laptops */
 @media only screen and (min-width: 1200px) {
 
 }
 
+/* higher res screens */
 @media only screen and (min-width: 1500px) {
 
 }
