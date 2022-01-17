@@ -3,7 +3,7 @@ module.exports = {
     title: `GARETH`,
     description: `Portfolio website of Gareth Veale.`,
     author: `Gareth Veale`,
-    siteUrl: `https://garethveale.dev/`,
+    siteUrl: `https://garethv.xyz/`,
   },
   pathPrefix: "/",
   plugins: [

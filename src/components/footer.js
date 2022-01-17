@@ -19,14 +19,14 @@ const Footer = () => {
                         <FaGithubAlt className='fa' size={30} />
                     </a>
                     
-                    <a style={{ textDecoratin:`None` }} href="mailto:gareth@garethveale.dev" target="_blank" rel="noopener noreferrer">
+                    <a style={{ textDecoratin:`None` }} href="mailto:gareth@garethv.xyz" target="_blank" rel="noopener noreferrer">
                         <FaEnvelope className='fa' size={30} />
                     </a>
                 </IconContext.Provider>
             </div>
 
             <div className="footer-circle-wrapper">
-                <a style={{ textDecoratin:`None` }} href="mailto:gareth@garethveale.dev" target="_blank" rel="noopener noreferrer">
+                <a style={{ textDecoratin:`None` }} href="mailto:gareth@garethv.xyz" target="_blank" rel="noopener noreferrer">
                     <div className="animated-circle-text">
                         <svg className='animated-circle-text-svg' viewBox="0 0 244.1 244.1">
                         <path id="circlePath" d="M226.6,122.1c0,57.7-46.8,104.5-104.5,104.5S17.6,179.8,17.6,122.1S64.4,17.6,122.1,17.6
