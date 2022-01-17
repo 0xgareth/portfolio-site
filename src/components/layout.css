@@ -1858,11 +1858,11 @@ textPath {
   }
   /* FOOTER */
   .animated-circle-font{
-    font-size: 1vw;
+    font-size: 1.2vw;
   }
   .animated-circle-text {
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
   }
   /* HEADER */
   .header-link {
@@ -1980,11 +1980,11 @@ textPath {
   }
   /* FOOTER */
   .animated-circle-font{
-    font-size: 1vw;
+    font-size: 1.1vw;
   }
   .animated-circle-text {
-    width: 10vw;
-    height: 10vw;
+    width: 13vw;
+    height: 13vw;
   }
   /* HEADER */
   .header-link {
