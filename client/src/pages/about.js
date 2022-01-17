@@ -15,7 +15,7 @@ const About = ({location}) => (
         marginBottom: `2rem`,
         marginTop:`2rem`
     }}>    
-      
+      <a style={{ textDecoratin:`None` }} href="https://github.com/gareth-was-here" target="_blank" rel="noopener noreferrer">
       <div
           className="circle"
           style={{
@@ -32,7 +32,8 @@ const About = ({location}) => (
             alignItems:`center`,
             textAlign:`center`
           }}
-      ><p 
+      >
+        <p 
         style={{
           color:`white`, 
           fontFamily:`Montserrat-Medium`,
@@ -40,7 +41,9 @@ const About = ({location}) => (
           margin:`0`, 
           fontSize:`1.2vw`,
           transform: `rotate(10deg)`,
-        }}>PROJECTS<br></br>ON GITHUB</p></div>
+        }}>PROJECTS<br></br>ON GITHUB</p>
+      </div>
+      </a>
 
       {/* top */}
       <div 

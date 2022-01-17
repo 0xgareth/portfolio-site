@@ -22,21 +22,17 @@ const Footer = () => {
             >
 
                 <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                    <FaTwitter className='fa' size={30} />
-                </div>
-                </IconContext.Provider>
-
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                    <FaGithubAlt className='fa' size={30} />
-                </div>
-                </IconContext.Provider>
-
-                <IconContext.Provider value={{ color: "white" }}>
-                <div>
-                    <FaEnvelope className='fa' size={30} />
-                </div>
+                    <a style={{ textDecoratin:`None` }} href="https://twitter.com/gareth_was_here " target="_blank" rel="noopener noreferrer">
+                        <FaTwitter className='fa' size={30} />
+                    </a>
+                    
+                    <a style={{ textDecoratin:`None` }} href="https://github.com/gareth-was-here" target="_blank" rel="noopener noreferrer">
+                        <FaGithubAlt className='fa' size={30} />
+                    </a>
+                    
+                    <a style={{ textDecoratin:`None` }} href="mailto:gareth@garethveale.dev" target="_blank" rel="noopener noreferrer">
+                        <FaEnvelope className='fa' size={30} />
+                    </a>
                 </IconContext.Provider>
             </div>
             <div 
@@ -51,19 +47,19 @@ const Footer = () => {
                 zIndex:`5`,
                 }}
             >
-                {/* <p style={{color:`white`}}>test</p> */}
-
-                <div className="animated-circle-text">
-                    <svg className='animated-circle-text-svg' viewBox="0 0 244.1 244.1">
-                    <path id="circlePath" d="M226.6,122.1c0,57.7-46.8,104.5-104.5,104.5S17.6,179.8,17.6,122.1S64.4,17.6,122.1,17.6
-                        S226.6,64.4,226.6,122.1z" fill="transparent" />
-                    <text className='animated-circle-font'>
-                        <textPath  xlinkHref="#circlePath">
-                        GET IN TOUCH FOR COLLABORATIONS  
-                        </textPath>
-                    </text>
-                    </svg>
-                </div>
+                <a style={{ textDecoratin:`None` }} href="mailto:gareth@garethveale.dev" target="_blank" rel="noopener noreferrer">
+                    <div className="animated-circle-text">
+                        <svg className='animated-circle-text-svg' viewBox="0 0 244.1 244.1">
+                        <path id="circlePath" d="M226.6,122.1c0,57.7-46.8,104.5-104.5,104.5S17.6,179.8,17.6,122.1S64.4,17.6,122.1,17.6
+                            S226.6,64.4,226.6,122.1z" fill="transparent" />
+                        <text className='animated-circle-font'>
+                            <textPath  xlinkHref="#circlePath">
+                            GET IN TOUCH FOR COLLABORATIONS  
+                            </textPath>
+                        </text>
+                        </svg>
+                    </div>
+                </a>
             </div>
         </footer>
 
