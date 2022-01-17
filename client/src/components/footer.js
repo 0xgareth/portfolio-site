@@ -9,18 +9,7 @@ const Footer = () => {
         <footer>
 
             {/* socials */}
-            <div 
-                style={{
-                position: `absolute`,
-                left:`0`,
-                bottom:`0`,
-                display:`flex`,
-                flexDirection:`column`,
-                alignItems:`center`,
-                padding:`2rem`,
-                }}
-            >
-
+            <div className="icons-wrapper">
                 <IconContext.Provider value={{ color: "white" }}>
                     <a style={{ textDecoratin:`None` }} href="https://twitter.com/gareth_was_here " target="_blank" rel="noopener noreferrer">
                         <FaTwitter className='fa' size={30} />
@@ -35,18 +24,8 @@ const Footer = () => {
                     </a>
                 </IconContext.Provider>
             </div>
-            <div 
-                style={{
-                position: `absolute`,
-                right:`0`,
-                bottom:`0%`,
-                display:`flex`,
-                flexDirection:`column`,
-                alignItems:`center`,
-                padding:`2rem`,
-                zIndex:`5`,
-                }}
-            >
+
+            <div className="footer-circle-wrapper">
                 <a style={{ textDecoratin:`None` }} href="mailto:gareth@garethveale.dev" target="_blank" rel="noopener noreferrer">
                     <div className="animated-circle-text">
                         <svg className='animated-circle-text-svg' viewBox="0 0 244.1 244.1">
