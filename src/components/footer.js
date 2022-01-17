@@ -12,15 +12,15 @@ const Footer = () => {
             <div className="icons-wrapper">
                 <IconContext.Provider value={{ color: "white" }}>
                     <a style={{ textDecoratin:`None` }} href="https://twitter.com/gareth_was_here " target="_blank" rel="noopener noreferrer">
-                        <FaTwitter className='fa' size={20} />
+                        <FaTwitter className='fa' size={30} />
                     </a>
                     
                     <a style={{ textDecoratin:`None` }} href="https://github.com/gareth-was-here" target="_blank" rel="noopener noreferrer">
-                        <FaGithubAlt className='fa' size={20} />
+                        <FaGithubAlt className='fa' size={30} />
                     </a>
                     
                     <a style={{ textDecoratin:`None` }} href="mailto:gareth@garethveale.dev" target="_blank" rel="noopener noreferrer">
-                        <FaEnvelope className='fa' size={20} />
+                        <FaEnvelope className='fa' size={30} />
                     </a>
                 </IconContext.Provider>
             </div>

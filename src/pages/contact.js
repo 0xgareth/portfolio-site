@@ -40,7 +40,7 @@ const Contact = ({location}) => {
         {/* right column */}
         <div className="contact-right-col">
           <p className="contact-text">Get in touch for collaborations</p>
-          <a href="mailto:gareth@garethveale.dev" style={{textDecoration:`underline`}}><span className="contact-link">gareth@garethveale.dev →</span></a>        
+          <a href="mailto:gareth@garethveale.dev"><span className="contact-link">gareth@garethveale.dev →</span></a>        
         </div>
 
       </div>
