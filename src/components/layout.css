@@ -714,7 +714,7 @@ pre tt:after {
   transition: margin .25s;
   text-decoration: none;
   font-size: .8vw;
-  font-family:Montserrat-Light;
+  font-family:Montserrat-Regular;
   color:white
 }
 .header-link:hover {
@@ -885,7 +885,7 @@ textPath {
   width:50%
 }
 .about-text-header1 {
-  font-family:Montserrat-Medium;
+  font-family:Montserrat-Regular;
   color: white;
   padding: 5rem 0 0 6.5rem;
   font-size:1.5vw;
@@ -917,51 +917,6 @@ textPath {
   width:60%;
   padding-left:0rem;
   justify-content:center;
-}
-.skill-circle {
-  margin-top: 2.5rem;
-  margin-right: 0;
-  width: 20rem;
-  height: 20rem;
-  border-radius:50%;
-  border-color: #2F2F2F;
-  border-style: solid;
-  border-width: 1px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center
-}
-.skill-circle-text {
-  font-family:Montserrat-Light;
-  color:white; 
-  position:absolute; 
-  margin:0; 
-  font-size:1.15vw;
-  font-style:regular;
-  font-weight:500
-}
-.projects-circle {
-  background-color:#38A700;
-  width: 13rem;
-  height: 13rem;
-  left: 65%;
-  top:22%;
-  position:absolute;
-  border-radius:50%;
-  z-index: 5;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center
-}
-.projects-circle-text {
-  color:white; 
-  font-family:Montserrat-Medium;
-  position:absolute; 
-  margin:0; 
-  font-size:1.2vw;
-  transform: rotate(10deg);
 }
 
 /* CONTACT */
@@ -1020,7 +975,7 @@ textPath {
 }
 .contact-text {
   color: white;
-  font-family:Montserrat-Light; 
+  font-family:Montserrat-Regular; 
   font-size:2.5vw
 }
 .contact-link {
@@ -1120,7 +1075,7 @@ textPath {
   }
   .about-header-text-top {
     font-size: 13vw;
-    padding: 0rem 0 0 1.5rem;
+    padding: 1vh 0 0 1.5rem;
   }
   .about-header-text-bottom {
     font-size: 13vw;
@@ -1157,34 +1112,12 @@ textPath {
   .about-bottom-div-left {
     width:100%
   }
-  .skill-circle {
-    margin-top: 0rem;
-    margin-right: 3rem;
-    width: 8rem;
-    height: 8rem;
-  }
-  .skill-circle-text {
-    font-size:2.8vw;
-  }
-  .projects-circle {
-    display: none;
-    width: 7.5rem;
-    height: 7.5rem;
-    left: 60%;
-    top:74%;
-  }
-  .projects-circle-text {
-    margin:0; 
-    font-size:2.4vw;
-    transform: rotate(10deg);
-    margin-left: 0;
-  }
   /* CONTACT */
   .contact-wrapper { 
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 5rem;
   }
   .contact-header1 {
     font-size: 13vw;
@@ -1211,7 +1144,6 @@ textPath {
     align-items:center;
   }
   .contact-text {
-    font-family:Montserrat-Light; 
     font-size:6vw;
     margin-left: 0;
     margin-right: 0;
@@ -1283,7 +1215,7 @@ textPath {
     font-size: 2.25vw;
   }
   .nav-bar {
-    padding: 0;
+    padding: 2rem;
   }
   .nav-wrapper {
     padding:0;
@@ -1327,28 +1259,6 @@ textPath {
   .about-bottom-div-left {
     width:100%
   }
-  .skill-circle {
-    margin-top: 2rem;
-    margin-right: 0;
-    margin-right: 12rem;
-    width: 12.5rem;
-    height: 12.5rem;
-  }
-  .skill-circle-text {
-    font-size:2.3vw;
-  }
-  .projects-circle {
-    width: 7.5rem;
-    height: 7.5rem;
-    left: 65%;
-    top:72%;
-  }
-  .projects-circle-text {
-    margin:0; 
-    font-size:2.4vw;
-    transform: rotate(10deg);
-    margin-left: 0;
-  }
   /* CONTACT */
   .contact-wrapper { 
     flex-direction: column;
@@ -1380,7 +1290,6 @@ textPath {
     align-items:center;
   }
   .contact-text {
-    font-family:Montserrat-Light; 
     font-size:4vw
   }
   .contact-link {
@@ -1490,29 +1399,7 @@ textPath {
     padding-left:0rem;
   }
   .about-bottom-div-left {
-    width:60%
-  }
-  .skill-circle {
-    margin-top: 3rem;
-    margin-right: 0;
-    width: 13rem;
-    height: 13rem;
-  }
-  .skill-circle-text {
-    font-size:1.9vw;
-  }
-  .projects-circle {
-    display:none;
-    width: 8.5rem;
-    height: 8.5rem;
-    left: 65%;
-    top:43%;
-  }
-  .projects-circle-text {
-    margin:0; 
-    font-size:2.2vw;
-    transform: rotate(10deg);
-    margin-left: 0;
+    width:80%
   }
   /* CONTACT */
   .contact-wrapper { 
@@ -1545,7 +1432,6 @@ textPath {
     align-items:center;
   }
   .contact-text {
-    font-family:Montserrat-Light; 
     font-size:4vw
   }
   .contact-link {
@@ -1645,28 +1531,7 @@ textPath {
     padding-left:0rem;
   }
   .about-bottom-div-left {
-    width:60%
-  }
-  .skill-circle {
-    margin-top: 2rem;
-    margin-right: 0;
-    width: 16rem;
-    height: 16rem;
-  }
-  .skill-circle-text {
-    font-size:2vw;
-  }
-  .projects-circle {
-    width: 10rem;
-    height: 10rem;
-    left: 77%;
-    top:22%;
-  }
-  .projects-circle-text {
-    margin:0; 
-    font-size:1.8vw;
-    transform: rotate(10deg);
-    margin-left: 0;
+    width:80%
   }
   /* CONTACT */
   .contact-wrapper { 
@@ -1697,7 +1562,6 @@ textPath {
     align-items: flex-start;
   }
   .contact-text {
-    font-family:Montserrat-Light; 
     font-size:2.5vw;
     margin-left: 0;
   }
@@ -1790,29 +1654,7 @@ textPath {
     padding-left:0rem;
   }
   .about-bottom-div-left {
-    width:60%
-  }
-  .skill-circle {
-    margin-top: 0rem;
-    margin-right: 0;
-    width: 16rem;
-    height: 16rem;
-  }
-  .skill-circle-text {
-    font-size:1.5vw;
-  }
-  .projects-circle {
-    display:flex;
-    width: 10rem;
-    height: 10rem;
-    left: 77%;
-    top:24%;
-  }
-  .projects-circle-text {
-    margin:0; 
-    font-size:1.5vw;
-    transform: rotate(10deg);
-    margin-left: 0;
+    width:80%
   }
   /* CONTACT */
   .contact-left-col { 
@@ -1906,28 +1748,7 @@ textPath {
     padding-left:0rem;
   }
   .about-bottom-div-left {
-    width:50%
-  }
-  .skill-circle {
-    margin-top: 0rem;
-    margin-right: 0;
-    width: 19.5rem;
-    height: 19.5rem;
-  }
-  .skill-circle-text {
-    font-size:1.5vw;
-  }
-  .projects-circle {
-    width: 11rem;
-    height: 11rem;
-    left: 75%;
-    top:22%;
-  }
-  .projects-circle-text {
-    margin:0; 
-    font-size:1.2vw;
-    transform: rotate(10deg);
-    margin-left: 0;
+    width:70%
   }
   /* CONTACT */
   .contact-left-col { 
@@ -2028,28 +1849,7 @@ textPath {
     padding-left:0rem;
   }
   .about-bottom-div-left {
-    width:50%
-  }
-  .skill-circle {
-    margin-top: 2.5rem;
-    margin-right: 0;
-    width: 20rem;
-    height: 20rem;
-  }
-  .skill-circle-text {
-    font-size:1.15vw;
-  }
-  .projects-circle {
-    width: 13rem;
-    height: 13rem;
-    left: 65%;
-    top:20%;
-  }
-  .projects-circle-text {
-    margin:0; 
-    font-size:1.2vw;
-    transform: rotate(10deg);
-    margin: 0;
+    width:60%
   }
   /* CONTACT */
   .contact-left-col { 

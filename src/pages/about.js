@@ -8,15 +8,6 @@ const About = ({location}) => (
     <Seo title="About" />
 
     <div className='about-wrapper'>
-
-      {/* projects button */}
-      <a style={{ textDecoration:`None` }} href="https://github.com/gareth-was-here" target="_blank" rel="noopener noreferrer">  
-        <div className="projects-circle">
-          <p className="projects-circle-text">PROJECTS<br></br>ON GITHUB</p>
-        </div>
-      </a>
-
-      {/* top */}
       <div className='about-top-div'>
         <h1 className='about-header-text-top'>
           FULL STACK
@@ -35,31 +26,22 @@ const About = ({location}) => (
           <p className='about-text-header2'>and what I do.</p>
 
           <p className='about-body-text-1'>
-            I'm Gareth - full stack developer (and occasional designer). My passions 
-            centre around engineering, design, and the 
-            creative experience of technology.
+            I'm Gareth - full stack developer exploring web3 
+            and blockchain. I have experience in building large scale, low latency, 
+            Python backend systems in the financial services industry, and 
+            fullstack web applications using modern frameworks. Check out 
+            some of my projects on my Github.
           </p>
           <p className='about-body-text-2'>
-            I have industry experience in Python
-            back-end engineering and full-stack
-            web development. I'm always building
-            projects to teach myself new skills. I'm currently
-            learning web3, blockchain, and web 
+            My passions centre around engineering, 
+            design, and the creative experience of technology.
+            I'm always building projects to teach myself new skills. 
+            I'm currently teaching myself web3, blockchain, and web 
             animation.
           </p>
         </div>
 
         {/* right */}
-        <div className='about-bottom-div-right'>
-          <div className='skill-circle'>
-            <p className='skill-circle-text'>
-              fullstack development<br></br>
-              backend engineering<br></br>
-              web3<br></br>
-              web animation<br></br>
-            </p>
-          </div>
-        </div>
       </div>
     </div>
 
