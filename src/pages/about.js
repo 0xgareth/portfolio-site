@@ -27,15 +27,13 @@ const About = ({location}) => (
 
           <p className='about-body-text-1'>
             I'm Gareth - full stack developer exploring web3 
-            and blockchain. I have experience in building large scale, low latency, 
-            Python backend systems in the financial services industry, and 
-            fullstack web applications using modern frameworks. Check out 
-            some of my projects on my Github.
+            and blockchain. I have experience building large scale, low latency, 
+            systems in the financial services, and fullstack web apps.
           </p>
           <p className='about-body-text-2'>
             My passions centre around engineering, 
             design, and the creative experience of technology.
-            I'm always building projects to teach myself new skills. 
+            I'm always building projects to learn new skills. 
             I'm currently teaching myself web3, blockchain, and web 
             animation.
           </p>
