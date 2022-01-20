@@ -11,11 +11,11 @@ const Footer = () => {
             {/* socials */}
             <div className="icons-wrapper">
                 <IconContext.Provider value={{ color: "white" }}>
-                    <a style={{ textDecoratin:`None` }} href="https://twitter.com/gareth_was_here " target="_blank" rel="noopener noreferrer">
+                    <a style={{ textDecoratin:`None` }} href="https://twitter.com/gareth_xyz" target="_blank" rel="noopener noreferrer">
                         <FaTwitter className='fa' size={30} />
                     </a>
                     
-                    <a style={{ textDecoratin:`None` }} href="https://github.com/gareth-was-here" target="_blank" rel="noopener noreferrer">
+                    <a style={{ textDecoratin:`None` }} href="https://github.com/gareth-xyz" target="_blank" rel="noopener noreferrer">
                         <FaGithubAlt className='fa' size={30} />
                     </a>
                     
