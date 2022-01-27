@@ -2,7 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `GARETH`,
     description: `Portfolio website of Gareth Veale.`,
-    author: `Gareth Veale`,
+    author: {
+      name: `Gareth Veale`,
+      summary: `full stack developer from London.`,
+    },
     siteUrl: `https://garethv.xyz/`,
   },
   pathPrefix: "/",
@@ -14,6 +17,35 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/content/blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 630,
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+        ],
       },
     },
     `gatsby-transformer-sharp`,
