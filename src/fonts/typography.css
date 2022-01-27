@@ -2,21 +2,3 @@
     font-family: 'Cabin';
     src: local('Cabin'), url('./Cabin-Regular.ttf') format('truetype');
 }
-@font-face {
-    font-family: 'Montserrat-Regular';
-    src: local('Montserrat-Regular'), url('./Montserrat-Regular.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Montserrat-LightItalic';
-    src: local('Montserrat-LightItalic'), url('./Montserrat-LightItalic.ttf') format('truetype');
-  }
-/* @font-face {
-    font-family: 'Montserrat';
-    src: local('Montserrat'), url('./Montserrat-Medium.ttf') format('truetype');
-  }
-} */
-@font-face {
-    font-family: 'Montserrat-ExtraBold';
-    font-style:bold;
-    src: local('Montserrat-ExtraBold'), url('./Montserrat-ExtraBold.ttf') format('truetype');
-  }
