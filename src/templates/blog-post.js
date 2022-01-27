@@ -1,8 +1,5 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
-// import Bio from "../components/bio"
-import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const BlogPostTemplate = ({ data, location }) => {
@@ -11,12 +8,12 @@ const BlogPostTemplate = ({ data, location }) => {
   const { previous, next } = data
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <div>
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      {/* <article
+      <article
         className="blog-post"
         itemScope
         itemType="http://schema.org/Article"
@@ -30,9 +27,6 @@ const BlogPostTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <hr />
-        <footer>
-          <Bio />
-        </footer>
       </article>
       <nav className="blog-post-nav">
         <ul
@@ -59,8 +53,8 @@ const BlogPostTemplate = ({ data, location }) => {
             )}
           </li>
         </ul>
-      </nav> */}
-    </Layout>
+      </nav>
+    </div>
   )
 }
 
