@@ -1360,9 +1360,6 @@ textPath {
   .header-link {
     font-size: 2vw;
   }
-  .nav-bar {
-    padding: 2rem;
-  }
   .nav-wrapper {
     padding:0;
   } 
@@ -1497,9 +1494,6 @@ textPath {
   .header-link {
     font-size: 1.5vw;
   }
-  .nav-bar {
-    padding: 2rem;
-  }
   .nav-wrapper {
     padding:0;
   } 
@@ -1620,9 +1614,6 @@ textPath {
   .header-link {
     font-size: 1.25vw;
   }
-  .nav-bar {
-    padding: 2rem;
-  }
   .nav-wrapper {
     padding:0;
   } 
@@ -1713,9 +1704,6 @@ textPath {
   /* HEADER */
   .header-link {
     font-size: 1vw;
-  }
-  .nav-bar {
-    padding: 2rem;
   }
   .nav-wrapper {
     padding:0;
@@ -1814,9 +1802,6 @@ textPath {
   /* HEADER */
   .header-link {
     font-size: .7vw;
-  }
-  .nav-bar {
-    padding: 2rem;
   }
   .nav-wrapper {
     padding:0;

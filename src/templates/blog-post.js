@@ -2,10 +2,18 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 import Seo from "../components/seo"
 
-const BlogPostTemplate = ({ data, location }) => {
+const BlogPostTemplate = ({ data }) => {
+  // const siteTitle = data.site.siteMetadata?.title || `Title`
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+
+  React.useEffect(()  => {
+    document.body.style.backgroundColor = "white";
+
+    return () => {
+        document.body.style.backgroundColor = "#030303";
+    };
+  });
 
   return (
     <div>
