@@ -45,7 +45,7 @@ const Posts = ({ data }) => {
                         itemType="http://schema.org/Article"
                     >
                       <header>
-                        <h2>
+                        <h2 className="posts-h2">
                             <Link className="post-list-link" to={post.fields.slug} itemProp="url">
                               <span itemProp="headline">{title}</span>
                             </Link>
