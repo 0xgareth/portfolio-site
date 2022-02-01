@@ -138,6 +138,7 @@ section p {
 
 section a {
     color:#0FA3B1;
+    font-size: var(--fontSize-1);
 }
 
 section a:hover {
