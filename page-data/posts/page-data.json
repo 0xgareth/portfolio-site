@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-posts-js",
+    "path": "/posts/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"GARETH"}},"allMarkdownRemark":{"nodes":[{"excerpt":"This website you’re viewing is built using GatsbyJS, the blog (held under /posts) is derived from the Gatsby Blog Starter (discussed below…","fields":{"slug":"/build-your-own-gatsby-blog/"},"frontmatter":{"date":"May 28, 2020","title":"Build and deploy your personal blog using GatsbyJS and GH Pages","description":"Deploy a super fast blog using GatsbyJS and host it for free via GitHub pages.","minread":3}}]}},"pageContext":{}},
+    "staticQueryHashes": ["3000541721"]}
