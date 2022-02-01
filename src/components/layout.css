@@ -822,7 +822,7 @@ textPath {
   height: 80vh;
   flex-direction: column;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 .about-top-div {
   display: flex;
@@ -1174,9 +1174,9 @@ textPath {
   .header-link {
     font-size: 2.25vw;
   }
-  .nav-bar {
+  /* .nav-bar {
     padding: 2rem;
-  }
+  } */
   .nav-wrapper {
     padding:0;
   } 
