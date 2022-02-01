@@ -18,20 +18,22 @@ const Posts = ({ data }) => {
     require('../components/posts.css')
 
     return (
-        <div>
-            <motion.main
-                initial={{ opacity: 0, x: -200 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: 200 }}
-                transition={{
-                    type: "spring",
-                    mass: 0.35,
-                    stiffness: 75,
-                    duration: 0.3,
-                    ease:"easeOut"
-                }}
-            >
-            <Seo title="Posts" />
+        <div className="global-wrapper">
+          <motion.main
+              initial={{ opacity: 0, x: -200 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 200 }}
+              transition={{
+                  type: "spring",
+                  mass: 0.35,
+                  stiffness: 75,
+                  duration: 0.3,
+                  ease:"easeOut"
+              }}
+          >
+          <Seo title="Posts" />
+
+          <Link to="/" className='posts-home-button'>← home</Link>
 
           <ol style={{ listStyle: `none` }}>
             {posts.map(post => {
@@ -44,13 +46,13 @@ const Posts = ({ data }) => {
                         itemScope
                         itemType="http://schema.org/Article"
                     >
-                      <header>
+                      <header className="post-list-header">
                         <h2 className="posts-h2">
                             <Link className="post-list-link" to={post.fields.slug} itemProp="url">
-                              <span itemProp="headline">{title}</span>
+                              <span style={{color:`#0FA3B1`}} className="posts-h2" itemProp="headline">{title}</span>
                             </Link>
                         </h2>
-                        <small>{post.frontmatter.date}</small>
+                        <small className="post-list-small">{post.frontmatter.date} • n min read ☕</small>
                       </header>
 
                       <section>
@@ -59,6 +61,7 @@ const Posts = ({ data }) => {
                             __html: post.frontmatter.description || post.excerpt,
                             }}
                             itemProp="description"
+                            className="post-list-description"
                         />
                       </section>
                     </article>

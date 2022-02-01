@@ -16,11 +16,13 @@ const BlogPostTemplate = ({ data }) => {
   });
 
   return (
-    <div>
+    <div className="global-wrapper">
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
+      <Link to="/" className='posts-home-button'>← home</Link>
+
       <article
         className="blog-post"
         itemScope
@@ -36,6 +38,7 @@ const BlogPostTemplate = ({ data }) => {
         />
         <hr />
       </article>
+
       <nav className="blog-post-nav">
         <ul
           style={{
