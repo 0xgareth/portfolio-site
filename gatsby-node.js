@@ -114,6 +114,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
+      minread: Int
     }
 
     type Fields {

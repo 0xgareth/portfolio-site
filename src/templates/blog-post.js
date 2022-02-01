@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 const BlogPostTemplate = ({ data }) => {
   // const siteTitle = data.site.siteMetadata?.title || `Title`
   const post = data.markdownRemark
-  const { previous, next } = data
+  // const { previous, next } = data
 
   React.useEffect(()  => {
     document.body.style.backgroundColor = "white";
@@ -46,7 +46,7 @@ const BlogPostTemplate = ({ data }) => {
         >
           <header>
             <h1 itemProp="headline">{post.frontmatter.title}</h1>
-            <p>{post.frontmatter.date}</p>
+            <p>{post.frontmatter.date} • {post.frontmatter.minread} min read ☕</p>
           </header>
           <section
             dangerouslySetInnerHTML={{ __html: post.html }}
@@ -107,6 +107,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        minread
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

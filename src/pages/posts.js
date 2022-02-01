@@ -52,7 +52,7 @@ const Posts = ({ data }) => {
                               <span style={{color:`#0FA3B1`}} className="posts-h2" itemProp="headline">{title}</span>
                             </Link>
                         </h2>
-                        <small className="post-list-small">{post.frontmatter.date} • n min read ☕</small>
+                        <small className="post-list-small">{post.frontmatter.date} • {post.frontmatter.minread} min read ☕</small>
                       </header>
 
                       <section>
@@ -95,6 +95,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          minread
         }
       }
     }
