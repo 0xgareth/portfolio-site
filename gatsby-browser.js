@@ -8,7 +8,7 @@
 import * as React from "react"
 import {AnimatePresence} from "framer-motion"
 import "@fontsource/montserrat/800.css"
-import "@fontsource/montserrat/100-italic.css";
+import "@fontsource/montserrat/200-italic.css";
 import "@fontsource/montserrat/variable.css"
 
 export const wrapPageElement = ({element}) => (
