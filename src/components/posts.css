@@ -61,43 +61,46 @@
 
 /* Heading */
 
+section h1, section h2, section h3, section h4, section h5, section h6, 
 .posts-h1, .posts-h2, .posts-h3, .posts-h4, .posts-h5, .posts-h6 {
     font-family: var(--font-heading);
     margin-top: var(--spacing-12);
     margin-bottom: var(--spacing-6);
     line-height: var(--lineHeight-tight);
+    margin-left:0;
     /* letter-spacing: -0.005em; */
 }
 
+section h2, section h3, section h4, section h5, section h6,
 .posts-h2, .posts-h3, .posts-h4, .posts-h5, .posts-h6 {
     font-weight: var(--fontWeight-bold);
     color: var(--color-heading);
 }
 
-.posts-h1 {
+section h1, .posts-h1 {
     font-weight: var(--fontWeight-black);
     font-size: var(--fontSize-6);
     color: var(--color-heading-black);
 }
   
-.posts-h2 {
+section h2, .posts-h2 {
     font-size: var(--fontSize-5);
     margin-left: 0;
 }
 
-.posts-h3 {
+section h3, .posts-h3 {
     font-size: var(--fontSize-4);
 }
   
-.posts-h4 {
+section h4, .posts-h4 {
     font-size: var(--fontSize-3);
 }
   
-.posts-h5 {
+section h5, .posts-h5 {
     font-size: var(--fontSize-2);
 }
   
-.posts-h6 {
+section h6, .posts-h6 {
     font-size: var(--fontSize-1);
 }
   
@@ -122,13 +125,25 @@
 
 /* Prose */
 
-/* p {
+section p {
     line-height: var(--lineHeight-relaxed);
     --baseline-multiplier: 0.179;
     --x-height-multiplier: 0.35;
     margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
     padding: var(--spacing-0);
-  } */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: var(--fontSize-1);
+}
+
+section a {
+    color:#0FA3B1;
+}
+
+section a:hover {
+    text-decoration:none;
+}
+
 .post-list-description {
     line-height: var(--lineHeight-relaxed);
     --baseline-multiplier: 0.179;
@@ -142,7 +157,6 @@
 .post-list-small {
     font-family: Cabin;
 }
-
 
 ul,
 ol {
@@ -219,10 +233,11 @@ table thead tr th {
 .global-header {
     margin-bottom: var(--spacing-12);
 }
-  
+
 .posts-home-button {
     color: black;
     text-decoration: none;
+    font-size: var(--fontSize-2);
 }
 
 .main-heading {
@@ -258,12 +273,15 @@ table thead tr th {
 }
   
 .blog-post header h1 {
-    margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
+    margin: var(--spacing-6) var(--spacing-0) var(--spacing-4) var(--spacing-0);
+    font-size: var(--fontSize-6);
+    color:var(--color-heading-black);
 }
   
 .blog-post header p {
-    font-size: var(--fontSize-2);
+    font-size: var(--fontSize-1);
     font-family: var(--font-heading);
+    margin-left:0;
 }
   
 .blog-post-nav ul {
@@ -288,7 +306,7 @@ ol {
 }
 
 @supports (font-variation-settings: normal) {
-    .posts-home-button {
+    .posts-home-button, .blog-post header p {
       font-family: "MontserratVariable";
       font-variation-settings: "wght" 400;
     }

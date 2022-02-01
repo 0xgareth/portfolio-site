@@ -19,6 +19,7 @@ const Posts = ({ data }) => {
 
     return (
         <div className="global-wrapper">
+          <Seo title="Posts" />
           <motion.main
               initial={{ opacity: 0, x: -200 }}
               animate={{ opacity: 1, x: 0 }}
@@ -31,7 +32,6 @@ const Posts = ({ data }) => {
                   ease:"easeOut"
               }}
           >
-          <Seo title="Posts" />
 
           <Link to="/" className='posts-home-button'>← home</Link>
 

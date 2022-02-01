@@ -1,6 +1,6 @@
-- style post template
-- add min read to post list
-- remove all duplicate css
+- back to top button
+- add min read to post list + content
+- remove all duplicate css in layout.css
 - fix header, ensure responsive styling
 
 - projects list
