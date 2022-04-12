@@ -10,5 +10,6 @@ I used GatsbyJS to build this website with a bunch of mini animations and a few 
 
 Check out the demo below =]
 
-https://user-images.githubusercontent.com/35449333/163001700-1c77fb14-6d67-4137-87df-8a07f2c343f7.mp4
+
+https://user-images.githubusercontent.com/35449333/163002077-1ee12def-3f13-489a-b91e-b261a0370d5f.mov
 
